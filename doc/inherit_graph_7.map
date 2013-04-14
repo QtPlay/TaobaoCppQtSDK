@@ -1,0 +1,535 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classTaoResponse.html" title="TaoResponse" alt="" coords="7,14721,108,14751"/>
+<area shape="rect" id="node3" href="$classAftersaleGetResponse.html" title="TOP RESPONSE API: 查询用户设置的售后服务模板，仅返回标题和id." alt="" coords="205,5,360,35"/>
+<area shape="rect" id="node5" href="$classAppipGetResponse.html" title="TOP RESPONSE API: 获取ISV发起请求服务器IP." alt="" coords="216,59,349,88"/>
+<area shape="rect" id="node7" href="$classAreasGetResponse.html" title="TOP RESPONSE API: 查询标准地址区域代码信息 参考：http://www.stats.gov.cn/tjbz/xzqhdm/t20100623_402652267.htm." alt="" coords="215,112,351,141"/>
+<area shape="rect" id="node9" href="$classBillAccountsGetResponse.html" title="TOP RESPONSE API: 查询费用账户信息" alt="" coords="196,165,369,195"/>
+<area shape="rect" id="node11" href="$classBillBillGetResponse.html" title="TOP RESPONSE API: 查询单笔账单明细" alt="" coords="213,219,352,248"/>
+<area shape="rect" id="node13" href="$classBillBillsGetResponse.html" title="TOP RESPONSE API: 查询账单明细数据" alt="" coords="211,272,355,301"/>
+<area shape="rect" id="node15" href="$classBillBookBillGetResponse.html" title="TOP RESPONSE API: 查询单笔虚拟账户明细" alt="" coords="199,325,367,355"/>
+<area shape="rect" id="node17" href="$classBillBookBillsGetResponse.html" title="TOP RESPONSE API: 查询虚拟账户明细数据" alt="" coords="196,379,369,408"/>
+<area shape="rect" id="node19" href="$classCaipiaoGoodsInfoGetResponse.html" title="TOP RESPONSE API: 根据卖家id与appkey获取商品信息。" alt="" coords="180,432,385,461"/>
+<area shape="rect" id="node21" href="$classCaipiaoGoodsInfoInputResponse.html" title="TOP RESPONSE API: 录入参加送彩票商品信息，如果录入成功，返回true，如果录入失败，返回false，后端会根据商品id与赠送类型（goodsid_presenttype_uk）来决定是..." alt="" coords="176,485,389,515"/>
+<area shape="rect" id="node23" href="$classCaipiaoLotterySendbynickResponse.html" title="TOP RESPONSE API: 卖家使用nick给买家送彩票，可以指定彩种和注数。赠送成功，返回true; 以下几种情况情况， 返回false: 注数超过100注、卖家未签署支付宝代扣协议、卖家或者..." alt="" coords="196,538,369,585"/>
+<area shape="rect" id="node25" href="$classCaipiaoLotterySendResponse.html" title="TOP RESPONSE API: 卖家给买家送彩票，可以指定彩种和注数。赠送成功，返回true; 以下几种情况情况， 返回false: 注数超过100注、卖家未签署支付宝代扣协议、卖家或者买家信息不存..." alt="" coords="185,608,380,637"/>
+<area shape="rect" id="node27" href="$classCaipiaoLotterytypesGetResponse.html" title="TOP RESPONSE API: 获取彩票系统支持的可用于赠送的彩种列表" alt="" coords="173,661,392,691"/>
+<area shape="rect" id="node29" href="$classCaipiaoPresentItemsGetResponse.html" title="TOP RESPONSE API: 查询卖家指定时间范围内的赠送订单列表, 只查询3个月以内的数据" alt="" coords="171,715,395,744"/>
+<area shape="rect" id="node31" href="$classCaipiaoPresentStatGetResponse.html" title="TOP RESPONSE API: 查询卖家一段时间内按天统计的彩票赠送数据，只支持查询90天以内的数据." alt="" coords="176,768,389,797"/>
+<area shape="rect" id="node33" href="$classCaipiaoPresentWinItemsGetResponse.html" title="TOP RESPONSE API: 获取卖家三个月内的中奖订单列表" alt="" coords="189,821,376,867"/>
+<area shape="rect" id="node35" href="$classCaipiaoShopInfoInputResponse.html" title="TOP RESPONSE API: 录入参加送彩票店铺信息，如果录入成功，返回true，如果录入失败，返回false，后端会根据卖家id与赠送类型（sellerid_presenttype_uk）来决定..." alt="" coords="180,891,385,920"/>
+<area shape="rect" id="node37" href="$classCaipiaoSignstatusCheckResponse.html" title="TOP RESPONSE API: 检查用户是否签署了支付宝代扣协议。如果签署了，返回true; 如果没签署，返回false, 同时返回签署代扣协议的Url。" alt="" coords="171,944,395,973"/>
+<area shape="rect" id="node39" href="$classCategoryrecommendItemsGetResponse.html" title="TOP RESPONSE API: 根据类目信息推荐相关联的宝贝集" alt="" coords="184,997,381,1043"/>
+<area shape="rect" id="node41" href="$classCometDiscardinfoGetResponse.html" title="TOP RESPONSE API: 获取一个appkey的哪些用户丢失了消息" alt="" coords="180,1067,385,1096"/>
+<area shape="rect" id="node43" href="$classDeliveryTemplateAddResponse.html" title="TOP RESPONSE API: 新增运费模板" alt="" coords="180,1120,385,1149"/>
+<area shape="rect" id="node45" href="$classDeliveryTemplateDeleteResponse.html" title="TOP RESPONSE API: 根据用户指定的模板ID删除指定的模板" alt="" coords="172,1173,393,1203"/>
+<area shape="rect" id="node47" href="$classDeliveryTemplateGetResponse.html" title="TOP RESPONSE API: 获取用户指定运费模板信息" alt="" coords="181,1227,384,1256"/>
+<area shape="rect" id="node49" href="$classDeliveryTemplatesGetResponse.html" title="TOP RESPONSE API: 根据用户ID获取用户下所有模板" alt="" coords="177,1280,388,1309"/>
+<area shape="rect" id="node51" href="$classDeliveryTemplateUpdateResponse.html" title="TOP RESPONSE API: 修改运费模板" alt="" coords="171,1333,395,1363"/>
+<area shape="rect" id="node53" href="$classEbppBillAddResponse.html" title="TOP RESPONSE API: 创建生活账单" alt="" coords="207,1387,359,1416"/>
+<area shape="rect" id="node55" href="$classEbppBillGetResponse.html" title="TOP RESPONSE API: 查询生活账单信息" alt="" coords="208,1440,357,1469"/>
+<area shape="rect" id="node57" href="$classEbppBillPayResponse.html" title="TOP RESPONSE API: 对生活账单进行支付接口" alt="" coords="207,1493,359,1523"/>
+<area shape="rect" id="node59" href="$classEbppBillPayurlGetResponse.html" title="TOP RESPONSE API: 创建账单之后，调用此API返回一个用户自己去收银台付款的URL，用户去收银台页面完成付款操作。" alt="" coords="189,1547,376,1576"/>
+<area shape="rect" id="node61" href="$classElectedItemsSearchResponse.html" title="TOP RESPONSE API: 获取天猫各类目下精选商品列表。在得到商品ID列表后，再调用taobao.item.get获取商品详情，再调用taobao.taobaoke.items.convert 获取有佣金的淘客推广链接" alt="" coords="184,1600,381,1629"/>
+<area shape="rect" id="node63" href="$classEmaiItemsSearchResponse.html" title="TOP RESPONSE API: 根据品牌特卖（temai.tmall.com）类目返回品牌特卖商品列表。在得到商品ID列表后，再调用taobao.item.get获取商品详情，再调用taobao.taobaoke.items.convert 获取有佣金的淘客推广链接" alt="" coords="191,1653,375,1683"/>
+<area shape="rect" id="node65" href="$classEmaiSubcatsSearchResponse.html" title="TOP RESPONSE API: 特卖子类目搜索" alt="" coords="183,1707,383,1736"/>
+<area shape="rect" id="node67" href="$classFavoriteAddResponse.html" title="TOP RESPONSE API: 添加商品或店铺到收藏夹" alt="" coords="208,1760,357,1789"/>
+<area shape="rect" id="node69" href="$classFavoriteSearchResponse.html" title="TOP RESPONSE API: 查询淘宝用户收藏的商品或店铺信息" alt="" coords="199,1813,367,1843"/>
+<area shape="rect" id="node71" href="$classFeedbackAddResponse.html" title="TOP RESPONSE API: 添加用户反馈信息" alt="" coords="203,1867,363,1896"/>
+<area shape="rect" id="node73" href="$classFenxiaoCooperationAuditResponse.html" title="TOP RESPONSE API: 合作授权审批" alt="" coords="169,1920,396,1949"/>
+<area shape="rect" id="node75" href="$classFenxiaoCooperationGetResponse.html" title="TOP RESPONSE API: 获取供应商的合作关系信息" alt="" coords="173,1973,392,2003"/>
+<area shape="rect" id="node77" href="$classFenxiaoCooperationProductcatAddResponse.html" title="TOP RESPONSE API: 追加授权产品线" alt="" coords="183,2026,383,2073"/>
+<area shape="rect" id="node79" href="$classFenxiaoCooperationTerminateResponse.html" title="TOP RESPONSE API: 终止与分销商的合作关系" alt="" coords="185,2095,380,2142"/>
+<area shape="rect" id="node81" href="$classFenxiaoCooperationUpdateResponse.html" title="TOP RESPONSE API: 供应商更新合作的分销商等级" alt="" coords="193,2165,372,2211"/>
+<area shape="rect" id="node83" href="$classFenxiaoDiscountAddResponse.html" title="TOP RESPONSE API: 新增等级折扣" alt="" coords="181,2235,384,2264"/>
+<area shape="rect" id="node85" href="$classFenxiaoDiscountsGetResponse.html" title="TOP RESPONSE API: 查询折扣信息" alt="" coords="180,2288,385,2317"/>
+<area shape="rect" id="node87" href="$classFenxiaoDiscountUpdateResponse.html" title="TOP RESPONSE API: 修改等级折扣" alt="" coords="172,2341,393,2371"/>
+<area shape="rect" id="node89" href="$classFenxiaoDistributorArchivesGetResponse.html" title="TOP RESPONSE API: 获取当前供应商授权分销商的产品的下载率，计算逻辑同后台页面。downLoadRatio 获取当前供应商授权分销商的产品的上架率，计算逻辑同后台页面。获取upSelfR..." alt="" coords="193,2394,372,2441"/>
+<area shape="rect" id="node91" href="$classFenxiaoDistributorItemsGetResponse.html" title="TOP RESPONSE API: 供应商查询分销商商品下载记录。" alt="" coords="192,2463,373,2510"/>
+<area shape="rect" id="node93" href="$classFenxiaoDistributorProcuctStaticGetResponse.html" title="TOP RESPONSE API: 获取分销商品流量，以天为单位统计分销商品的PV，UV." alt="" coords="196,2533,369,2579"/>
+<area shape="rect" id="node95" href="$classFenxiaoDistributorsGetResponse.html" title="TOP RESPONSE API: 查询和当前登录供应商有合作关系的分销商的信息" alt="" coords="176,2603,389,2632"/>
+<area shape="rect" id="node97" href="$classFenxiaoGradeAddResponse.html" title="TOP RESPONSE API: 新建等级" alt="" coords="191,2656,375,2685"/>
+<area shape="rect" id="node99" href="$classFenxiaoGradeDeleteResponse.html" title="TOP RESPONSE API: 删除等级" alt="" coords="183,2709,383,2739"/>
+<area shape="rect" id="node101" href="$classFenxiaoGradesGetResponse.html" title="TOP RESPONSE API: 根据供应商ID，查询他的分销商等级信息" alt="" coords="188,2763,377,2792"/>
+<area shape="rect" id="node103" href="$classFenxiaoGradeUpdateResponse.html" title="TOP RESPONSE API: 修改等级" alt="" coords="181,2816,384,2845"/>
+<area shape="rect" id="node105" href="$classFenxiaoLoginUserGetResponse.html" title="TOP RESPONSE API: 获取用户登录信息" alt="" coords="180,2869,385,2899"/>
+<area shape="rect" id="node107" href="$classFenxiaoOrderCloseResponse.html" title="TOP RESPONSE API: 供应商关闭未付款采购单.可传入一个主单号或是多个子单号，多个子单号之间以‘，’隔开" alt="" coords="187,2923,379,2952"/>
+<area shape="rect" id="node109" href="$classFenxiaoOrderConfirmPaidResponse.html" title="TOP RESPONSE API: 供应商确认收款（非支付宝交易）。" alt="" coords="168,2976,397,3005"/>
+<area shape="rect" id="node111" href="$classFenxiaoOrderCreateDealerResponse.html" title="TOP RESPONSE API: 分销商创建经销采购单." alt="" coords="195,3029,371,3075"/>
+<area shape="rect" id="node113" href="$classFenxiaoOrderCustomfieldUpdateResponse.html" title="TOP RESPONSE API: 采购单自定义字段" alt="" coords="177,3098,388,3145"/>
+<area shape="rect" id="node115" href="$classFenxiaoOrderMessageAddResponse.html" title="TOP RESPONSE API: 添加采购单留言，最多20条（供应商分销商都可添加）" alt="" coords="165,3168,400,3197"/>
+<area shape="rect" id="node117" href="$classFenxiaoOrderPayResponse.html" title="TOP RESPONSE API: 分销商线下付款" alt="" coords="192,3221,373,3251"/>
+<area shape="rect" id="node119" href="$classFenxiaoOrderRemarkUpdateResponse.html" title="TOP RESPONSE API: 供应商修改采购单备注" alt="" coords="189,3274,376,3321"/>
+<area shape="rect" id="node121" href="$classFenxiaoOrdersGetResponse.html" title="TOP RESPONSE API: 分销商或供应商均可用此接口查询采购单信息. (发货处理请调用物流API中的发货接口)" alt="" coords="189,3344,376,3373"/>
+<area shape="rect" id="node123" href="$classFenxiaoProductAddResponse.html" title="TOP RESPONSE API: 添加分销平台产品数据。业务逻辑与分销系统前台页面一致。" alt="" coords="185,3397,380,3427"/>
+<area shape="rect" id="node125" href="$classFenxiaoProductcatAddResponse.html" title="TOP RESPONSE API: 新增产品线" alt="" coords="176,3451,389,3480"/>
+<area shape="rect" id="node127" href="$classFenxiaoProductcatDeleteResponse.html" title="TOP RESPONSE API: 删除产品线" alt="" coords="169,3504,396,3533"/>
+<area shape="rect" id="node129" href="$classFenxiaoProductcatsGetResponse.html" title="TOP RESPONSE API: 查询供应商的所有产品线数据。根据登陆用户来查询，不需要其他入参" alt="" coords="173,3557,392,3587"/>
+<area shape="rect" id="node131" href="$classFenxiaoProductcatUpdateResponse.html" title="TOP RESPONSE API: 修改产品线" alt="" coords="167,3611,399,3640"/>
+<area shape="rect" id="node133" href="$classFenxiaoProductGradepriceGetResponse.html" title="TOP RESPONSE API: 等级折扣查询" alt="" coords="195,3663,371,3710"/>
+<area shape="rect" id="node135" href="$classFenxiaoProductGradepriceUpdateResponse.html" title="TOP RESPONSE API: 供应商可以针对产品不同的sku，指定对应交易类型（代销or经销）方式下，设定折扣方式（按等级or指定分销商）以及对应优惠后的采购价格" alt="" coords="195,3733,371,3779"/>
+<area shape="rect" id="node137" href="$classFenxiaoProductImageDeleteResponse.html" title="TOP RESPONSE API: 产品图片删除，只删除图片信息，不真正删除图片" alt="" coords="189,3802,376,3849"/>
+<area shape="rect" id="node139" href="$classFenxiaoProductImageUploadResponse.html" title="TOP RESPONSE API: 产品主图图片空间相对路径或绝对路径添加或更新，或者是图片上传。如果指定位置的图片已存在，则覆盖原有信息。如果位置为1,自动设为主图；如果位置为0，表示属性图片" alt="" coords="188,3871,377,3918"/>
+<area shape="rect" id="node141" href="$classFenxiaoProductMapAddResponse.html" title="TOP RESPONSE API: 创建分销和供应链商品映射关系。" alt="" coords="173,3941,392,3971"/>
+<area shape="rect" id="node143" href="$classFenxiaoProductMapDeleteResponse.html" title="TOP RESPONSE API: 删除分销和供应链商品映射关系。" alt="" coords="165,3995,400,4024"/>
+<area shape="rect" id="node145" href="$classFenxiaoProductPduUpdateResponse.html" title="TOP RESPONSE API: 产品分销商配额库存新增、修改、删除" alt="" coords="164,4048,401,4077"/>
+<area shape="rect" id="node147" href="$classFenxiaoProductsGetResponse.html" title="TOP RESPONSE API: 查询供应商的产品数据。" alt="" coords="183,4101,383,4131"/>
+<area shape="rect" id="node149" href="$classFenxiaoProductSkuAddResponse.html" title="TOP RESPONSE API: 添加产品SKU信息" alt="" coords="173,4155,392,4184"/>
+<area shape="rect" id="node151" href="$classFenxiaoProductSkuDeleteResponse.html" title="TOP RESPONSE API: 根据sku properties删除sku数据" alt="" coords="167,4208,399,4237"/>
+<area shape="rect" id="node153" href="$classFenxiaoProductSkusGetResponse.html" title="TOP RESPONSE API: 产品sku查询" alt="" coords="172,4261,393,4291"/>
+<area shape="rect" id="node155" href="$classFenxiaoProductSkuUpdateResponse.html" title="TOP RESPONSE API: 产品SKU信息更新" alt="" coords="164,4315,401,4344"/>
+<area shape="rect" id="node157" href="$classFenxiaoProductUpdateResponse.html" title="TOP RESPONSE API: 更新分销平台产品数据，不传更新数据返回失败 " alt="" coords="176,4368,389,4397"/>
+<area shape="rect" id="node159" href="$classFenxiaoRequisitionsGetResponse.html" title="TOP RESPONSE API: 合作申请查询" alt="" coords="173,4421,392,4451"/>
+<area shape="rect" id="node161" href="$classFenxiaoTrademonitorGetResponse.html" title="TOP RESPONSE API: 仅限供应商调用此接口查询经销商品监控信息" alt="" coords="171,4475,395,4504"/>
+<area shape="rect" id="node163" href="$classFuwuSaleLinkGenResponse.html" title="TOP RESPONSE API: 服务商通过使用该接口来产生营销链接，通过把这种链接发送给商家来做自定义人群的服务营销 &#160;注：session是param_str这个参数串创建者生成的session，这..." alt="" coords="189,4528,376,4557"/>
+<area shape="rect" id="node165" href="$classHotelAddResponse.html" title="TOP RESPONSE API: 此接口用于新增一个酒店，酒店的发布者是当前会话的用户。 该接口发出的是一个酒店申请，需要淘宝小二审核。" alt="" coords="216,4581,349,4611"/>
+<area shape="rect" id="node167" href="$classHotelCityGetResponse.html" title="TOP RESPONSE API: 根据国家编码查询该国家下的城市" alt="" coords="204,4635,361,4664"/>
+<area shape="rect" id="node169" href="$classHotelGetResponse.html" title="TOP RESPONSE API: 此接口用于查询一个酒店，根据传入的酒店hid查询酒店信息。" alt="" coords="216,4688,349,4717"/>
+<area shape="rect" id="node171" href="$classHotelImageUploadResponse.html" title="TOP RESPONSE API: 酒店图片上传" alt="" coords="188,4741,377,4771"/>
+<area shape="rect" id="node173" href="$classHotelMatchFeedbackResponse.html" title="TOP RESPONSE API: 用于回传hotel匹配结果" alt="" coords="180,4795,385,4824"/>
+<area shape="rect" id="node175" href="$classHotelNameGetResponse.html" title="TOP RESPONSE API: 此接口用于查询一个酒店，根据传入的酒店名称/别名查询酒店信息。" alt="" coords="199,4848,367,4877"/>
+<area shape="rect" id="node177" href="$classHotelOrderBookingFeedbackResponse.html" title="TOP RESPONSE API: 下单结果回传" alt="" coords="188,4901,377,4947"/>
+<area shape="rect" id="node179" href="$classHotelOrderFaceCheckResponse.html" title="TOP RESPONSE API: 此接口用户到店支付（前台面付）卖家处理订单的入住情况，包括核实买家已入住和核实买家未入住" alt="" coords="177,4971,388,5000"/>
+<area shape="rect" id="node181" href="$classHotelOrderFaceDealResponse.html" title="TOP RESPONSE API: 该接口用于卖家确认到店支付订单或者取消订单。" alt="" coords="183,5024,383,5053"/>
+<area shape="rect" id="node183" href="$classHotelOrderGetResponse.html" title="TOP RESPONSE API: 此接口用于查询一个酒店订单，根据传入的订单号查询订单信息。" alt="" coords="200,5077,365,5107"/>
+<area shape="rect" id="node185" href="$classHotelOrderPayFeedbackResponse.html" title="TOP RESPONSE API: 支付确认结果回传" alt="" coords="171,5131,395,5160"/>
+<area shape="rect" id="node187" href="$classHotelOrderRefundFeedbackResponse.html" title="TOP RESPONSE API: 退订处理结果回传" alt="" coords="191,5183,375,5230"/>
+<area shape="rect" id="node189" href="$classHotelOrdersSearchResponse.html" title="TOP RESPONSE API: 此接口用于查询多个酒店订单，根据传入的查询条件查询订单信息。" alt="" coords="187,5253,379,5283"/>
+<area shape="rect" id="node191" href="$classHotelRoomAddResponse.html" title="TOP RESPONSE API: 此接口用于发布一个集市酒店商品，商品的发布者是当前会话的用户。如果该酒店、该房型、该用户所对应的商品在淘宝集市酒店系统中已经存在，则会返回错误提示。" alt="" coords="197,5307,368,5336"/>
+<area shape="rect" id="node193" href="$classHotelRoomGetResponse.html" title="TOP RESPONSE API: 此接口用于查询一个商品，根据传入的gid查询商品信息。卖家只能查询自己的商品。" alt="" coords="199,5360,367,5389"/>
+<area shape="rect" id="node195" href="$classHotelRoomImgDeleteResponse.html" title="TOP RESPONSE API: 此接口用于为商品删除商品图片。" alt="" coords="180,5413,385,5443"/>
+<area shape="rect" id="node197" href="$classHotelRoomImgUploadResponse.html" title="TOP RESPONSE API: 此接口用于为商品上传商品图片。" alt="" coords="177,5467,388,5496"/>
+<area shape="rect" id="node199" href="$classHotelRoomQuotasQueryFeedbackResponse.html" title="TOP RESPONSE API: 接入方房态查询结果返回" alt="" coords="172,5519,393,5566"/>
+<area shape="rect" id="node201" href="$classHotelRoomsSearchResponse.html" title="TOP RESPONSE API: 此接口用于查询多个酒店商品，根据传入的参数查询商品信息。卖家只能查询自己的商品。" alt="" coords="185,5589,380,5619"/>
+<area shape="rect" id="node203" href="$classHotelRoomsUpdateResponse.html" title="TOP RESPONSE API: 此接口用于更新多个集市酒店商品房态信息，根据传入的gids更新商品信息，该商品必须为对应的发布者才能执行更新操作。如果对应的商品在淘宝集市酒店系统中不存在，则会返回错..." alt="" coords="185,5643,380,5672"/>
+<area shape="rect" id="node205" href="$classHotelRoomUpdateResponse.html" title="TOP RESPONSE API: 此接口用于更新一个集市酒店商品，根据传入的gid更新商品信息，该商品必须为对应的发布者才能执行更新操作。如果对应的商品在淘宝集市酒店系统中不存在，则会返回错误提示。" alt="" coords="188,5696,377,5725"/>
+<area shape="rect" id="node207" href="$classHotelSoldHotelsIncrementGetResponse.html" title="TOP RESPONSE API: 1. 此接口用于查询该会话用户作为酒店发布者发布的酒店被审核通过的增量酒店信息。" alt="" coords="196,5749,369,5795"/>
+<area shape="rect" id="node209" href="$classHotelSoldOrdersIncrementGetResponse.html" title="TOP RESPONSE API: 1. 搜索当前会话用户作为卖家已卖出的增量交易数据" alt="" coords="195,5818,371,5865"/>
+<area shape="rect" id="node211" href="$classHotelSoldTypesIncrementGetResponse.html" title="TOP RESPONSE API: 1. 此接口用于查询该会话用户作为房型发布者发布的房型的审核情况。" alt="" coords="185,5887,380,5934"/>
+<area shape="rect" id="node213" href="$classHotelsSearchResponse.html" title="TOP RESPONSE API: 此接口用于查询多个酒店，根据传入的参数查询酒店信息。" alt="" coords="203,5957,363,5987"/>
+<area shape="rect" id="node215" href="$classHotelTypeAddResponse.html" title="TOP RESPONSE API: 此接口用于发布一个房型，房型的发布者是当前会话的用户。如果该房型在淘宝集市酒店下已经存在，则会返回错误提示。 该接口发布的是一个新增房型申请，需要淘宝小二审核" alt="" coords="201,6011,364,6040"/>
+<area shape="rect" id="node217" href="$classHotelTypeNameGetResponse.html" title="TOP RESPONSE API: 此接口用于查询一个房型，根据传入的酒店hid，房型名称/别名查询房型信息。" alt="" coords="184,6064,381,6093"/>
+<area shape="rect" id="node219" href="$classHotelUpdateResponse.html" title="TOP RESPONSE API: 此接口用于更新一个酒店的信息，根据用户传入的hid更新酒店数据。如果该酒店在淘宝集市酒店不存在，则会返回错误提示。 该接口发出的是一个更新酒店信息的申请，需要淘宝小二..." alt="" coords="205,6117,360,6147"/>
+<area shape="rect" id="node221" href="$classIncrementAuthorizeMessageGetResponse.html" title="TOP RESPONSE API: 通用的用于获取用户授权的消息数据" alt="" coords="189,6170,376,6217"/>
+<area shape="rect" id="node223" href="$classIncrementCustomerPermitResponse.html" title="TOP RESPONSE API: 提供app为自己的用户开通增量消息服务功能" alt="" coords="165,6240,400,6269"/>
+<area shape="rect" id="node225" href="$classIncrementCustomersGetResponse.html" title="TOP RESPONSE API: 提供查询应用为自身用户所开通的增量消息服务信息。" alt="" coords="171,6293,395,6323"/>
+<area shape="rect" id="node227" href="$classIncrementCustomerStopResponse.html" title="TOP RESPONSE API: 供应用关闭其用户的增量消息服务功能，这样可以节省ISV的流量。" alt="" coords="172,6347,393,6376"/>
+<area shape="rect" id="node229" href="$classIncrementItemsGetResponse.html" title="TOP RESPONSE API: 开通主动通知业务的APP可以通过该接口获取商品变更通知信息 &lt;font color=&quot;red&quot;&gt;建议获取增量消息的时间间隔是：半个小时&lt;/font&gt;" alt="" coords="187,6400,379,6429"/>
+<area shape="rect" id="node231" href="$classIncrementRefundsGetResponse.html" title="TOP RESPONSE API: 开通主动通知业务的APP可以通过该接口获取用户的退款变更通知信息 &lt;font color=&quot;red&quot;&gt;建议在获取增量消息的时间间隔是：半个小时&lt;/font&gt;" alt="" coords="179,6453,387,6483"/>
+<area shape="rect" id="node233" href="$classIncrementTradesGetResponse.html" title="TOP RESPONSE API: 开通主动通知业务的APP可以通过该接口获取用户的交易和评价变更通知信息 &lt;font color=&quot;red&quot;&gt;建议在获取增量消息的时间间隔是：半个小时&lt;/font&gt;" alt="" coords="183,6507,383,6536"/>
+<area shape="rect" id="node235" href="$classInventoryAdjustExternalResponse.html" title="TOP RESPONSE API: 商家非交易调整库存，调拨出库、盘点等时调用" alt="" coords="173,6560,392,6589"/>
+<area shape="rect" id="node237" href="$classInventoryAdjustTradeResponse.html" title="TOP RESPONSE API: 商家交易调整库存，淘宝交易、B2B经销等" alt="" coords="180,6613,385,6643"/>
+<area shape="rect" id="node239" href="$classInventoryAuthorizeGetallResponse.html" title="TOP RESPONSE API: 货主根据多个商品列表获取每个商品的授权明细" alt="" coords="200,6666,365,6713"/>
+<area shape="rect" id="node241" href="$classInventoryAuthorizeGetResponse.html" title="TOP RESPONSE API: 根据授权结果码获取授权状况" alt="" coords="177,6736,388,6765"/>
+<area shape="rect" id="node243" href="$classInventoryAuthorizeRemoveallResponse.html" title="TOP RESPONSE API: 移除该授权下的用户库存授权" alt="" coords="187,6789,379,6835"/>
+<area shape="rect" id="node245" href="$classInventoryAuthorizeRemoveResponse.html" title="TOP RESPONSE API: 根据库存授权结果码移除该授权下的用户库存授权" alt="" coords="193,6858,372,6905"/>
+<area shape="rect" id="node247" href="$classInventoryAuthorizeSetResponse.html" title="TOP RESPONSE API: 商家向其他用户设置配额库存的共享或者独享，支持到渠道，商家自定义库存类别" alt="" coords="177,6928,388,6957"/>
+<area shape="rect" id="node249" href="$classInventoryInitialItemResponse.html" title="TOP RESPONSE API: 商家仓商品初始化在各个仓中库存" alt="" coords="187,6981,379,7011"/>
+<area shape="rect" id="node251" href="$classInventoryInitialResponse.html" title="TOP RESPONSE API: 商家仓库存初始化接口，直接按照商家指定的商品库存数进行填充，没有单据核对，不参与库存对账" alt="" coords="200,7035,365,7064"/>
+<area shape="rect" id="node253" href="$classInventoryOccupyApplyResponse.html" title="TOP RESPONSE API: 商家申请预留库存" alt="" coords="176,7088,389,7117"/>
+<area shape="rect" id="node255" href="$classInventoryOccupyCancelResponse.html" title="TOP RESPONSE API: 商家取消预留库存" alt="" coords="172,7141,393,7171"/>
+<area shape="rect" id="node257" href="$classInventoryQueryResponse.html" title="TOP RESPONSE API: 商家查询商品总体库存信息" alt="" coords="197,7195,368,7224"/>
+<area shape="rect" id="node259" href="$classInventoryStoreManageResponse.html" title="TOP RESPONSE API: 创建商家仓或者更新商家仓信息" alt="" coords="177,7248,388,7277"/>
+<area shape="rect" id="node261" href="$classInventoryStoreQueryResponse.html" title="TOP RESPONSE API: 查询商家仓信息" alt="" coords="183,7301,383,7331"/>
+<area shape="rect" id="node263" href="$classItemAddResponse.html" title="TOP RESPONSE API: 此接口用于新增一个商品 商品所属的卖家是当前会话的用户 商品的属性和sku的属性有包含的关系，商品的价格要位于sku的价格区间之中（例如，sku价格有5元、10元两种..." alt="" coords="217,7355,348,7384"/>
+<area shape="rect" id="node265" href="$classItemAnchorGetResponse.html" title="TOP RESPONSE API: 根据类目id和宝贝描述规范化打标类型获取该类目可用的宝贝描述模块中的锚点" alt="" coords="199,7408,367,7437"/>
+<area shape="rect" id="node267" href="$classItemBsellerAddResponse.html" title="TOP RESPONSE API: 淘宝助理提供的发布商城商品接口，在发布时 先查询是否有这个产品，有则将商品绑定到该产品上发布；如果没有这个产品，自动帮用户新建产品，再将商品绑定到该产品上发布。错误码..." alt="" coords="197,7461,368,7491"/>
+<area shape="rect" id="node269" href="$classItemcatsAuthorizeGetResponse.html" title="TOP RESPONSE API: 查询B商家被授权品牌列表、类目列表和 c 商家新品类目列表" alt="" coords="179,7515,387,7544"/>
+<area shape="rect" id="node271" href="$classItemcatsGetResponse.html" title="TOP RESPONSE API: 获取后台供卖家发布商品的标准商品类目。 &#160;1. 增量获取类目数据可用taobao.itemcats.increment.get接口。 &#160;2..." alt="" coords="207,7568,359,7597"/>
+<area shape="rect" id="node273" href="$classItemcatsIncrementGetResponse.html" title="TOP RESPONSE API: 增量获取后台类目、类目属性、类目属性值数据 &#160;1. 每天7点左右会产生今天的增量数据，在7点之前获取增量类目数据将会报错，在7点之后获取增量类目数据可以实时返回。 &#160;..." alt="" coords="177,7621,388,7651"/>
+<area shape="rect" id="node275" href="$classItemCsellerAddResponse.html" title="TOP RESPONSE API: 淘宝助理提供的发布集市商品接口，接口参数除了包括taobao.item.vip.add的参数外，新增一个sub_pic_paths参数，为图片空间的url，本方法会在..." alt="" coords="197,7675,368,7704"/>
+<area shape="rect" id="node277" href="$classItemDeleteResponse.html" title="TOP RESPONSE API: 删除单条商品" alt="" coords="211,7728,355,7757"/>
+<area shape="rect" id="node279" href="$classItemGetResponse.html" title="TOP RESPONSE API: 获取单个商品的详细信息 卖家未登录时只能获得这个商品的公开数据，卖家登录后可以获取商品的所有数据" alt="" coords="219,7781,347,7811"/>
+<area shape="rect" id="node281" href="$classItemImgDeleteResponse.html" title="TOP RESPONSE API: 删除itemimg_id 所指定的商品图片 传入的num_iid所对应的商品必须属于当前会话的用户 itemimg_id对应的图片需要属于num_iid对应的商品" alt="" coords="200,7835,365,7864"/>
+<area shape="rect" id="node283" href="$classItemImgUploadResponse.html" title="TOP RESPONSE API: 添加一张商品图片到num_iid指定的商品中 传入的num_iid所对应的商品必须属于当前会话的用户 如果更新图片需要设置itemimg_id，且该itemimg_i..." alt="" coords="197,7888,368,7917"/>
+<area shape="rect" id="node285" href="$classItemJointImgResponse.html" title="TOP RESPONSE API: * 关联一张商品图片到num_iid指定的商品中 传入的num_iid所对应的商品必须属于当前会话的用户 商品图片关联在卖家身份和图片来源上的限制，卖家要是B卖家或订..." alt="" coords="204,7941,361,7971"/>
+<area shape="rect" id="node287" href="$classItemJointPropimgResponse.html" title="TOP RESPONSE API: * 关联一张商品属性图片到num_iid指定的商品中 传入的num_iid所对应的商品必须属于当前会话的用户 图片的属性必须要是颜色的属性，这个在前台显示的时候需要和..." alt="" coords="192,7995,373,8024"/>
+<area shape="rect" id="node289" href="$classItemPriceUpdateResponse.html" title="TOP RESPONSE API: 更新商品价格" alt="" coords="193,8048,372,8077"/>
+<area shape="rect" id="node291" href="$classItemPropimgDeleteResponse.html" title="TOP RESPONSE API: 删除propimg_id 所指定的商品属性图片 传入的num_iid所对应的商品必须属于当前会话的用户 propimg_id对应的属性图片需要属于num_iid对应的..." alt="" coords="187,8101,379,8131"/>
+<area shape="rect" id="node293" href="$classItemPropimgUploadResponse.html" title="TOP RESPONSE API: 添加一张商品属性图片到num_iid指定的商品中 传入的num_iid所对应的商品必须属于当前会话的用户 图片的属性必须要是颜色的属性，这个在前台显示的时候需要和sk..." alt="" coords="185,8155,380,8184"/>
+<area shape="rect" id="node295" href="$classItempropsGetResponse.html" title="TOP RESPONSE API: 通过设置必要的参数，来获取商品后台标准类目属性，以及这些属性里面详细的属性值prop_values。" alt="" coords="203,8208,363,8237"/>
+<area shape="rect" id="node297" href="$classItempropvaluesGetResponse.html" title="TOP RESPONSE API: 传入类目ID,必需是叶子类目，通过taobao.itemcats.get获取类目ID 返回字段目前支持有：cid,pid,prop_name,vid,name,name_alias,status,sort_order 作用:获取标准类目属性值" alt="" coords="188,8261,377,8291"/>
+<area shape="rect" id="node299" href="$classItemQuantityUpdateResponse.html" title="TOP RESPONSE API: 提供按照全量或增量形式修改宝贝/SKU库存的功能" alt="" coords="184,8315,381,8344"/>
+<area shape="rect" id="node301" href="$classItemRecommendAddResponse.html" title="TOP RESPONSE API: 将当前用户指定商品设置为橱窗推荐状态 橱窗推荐需要用户有剩余橱窗位才可以顺利执行 这个Item所属卖家从传入的session中获取，需要session绑定 需要判断橱..." alt="" coords="181,8368,384,8397"/>
+<area shape="rect" id="node303" href="$classItemRecommendDeleteResponse.html" title="TOP RESPONSE API: 取消当前用户指定商品的橱窗推荐状态 这个Item所属卖家从传入的session中获取，需要session绑定" alt="" coords="173,8421,392,8451"/>
+<area shape="rect" id="node305" href="$classItemrecommendItemsGetResponse.html" title="TOP RESPONSE API: 根据推荐类型获取推荐的关联关系商品" alt="" coords="168,8475,397,8504"/>
+<area shape="rect" id="node307" href="$classItemsCustomGetResponse.html" title="TOP RESPONSE API: 跟据卖家设定的商品外部id获取商品 这个商品对应卖家从传入的session中获取，需要session绑定" alt="" coords="192,8528,373,8557"/>
+<area shape="rect" id="node309" href="$classItemsInventoryGetResponse.html" title="TOP RESPONSE API: 获取当前用户作为卖家的仓库中的商品列表，并能根据传入的搜索条件对仓库中的商品列表进行过滤 只能获得商品的部分信息，商品的详细信息请通过taobao.item.get获取" alt="" coords="188,8581,377,8611"/>
+<area shape="rect" id="node311" href="$classItemSkuAddResponse.html" title="TOP RESPONSE API: 新增一个sku到num_iid指定的商品中 传入的iid所对应的商品必须属于当前会话的用户" alt="" coords="207,8635,359,8664"/>
+<area shape="rect" id="node313" href="$classItemSkuDeleteResponse.html" title="TOP RESPONSE API: 删除一个sku的数据 需要删除的sku通过属性properties进行匹配查找" alt="" coords="199,8688,367,8717"/>
+<area shape="rect" id="node315" href="$classItemSkuGetResponse.html" title="TOP RESPONSE API: 获取sku_id所对应的sku数据 sku_id对应的sku要属于传入的nick对应的卖家" alt="" coords="208,8741,357,8771"/>
+<area shape="rect" id="node317" href="$classItemSkuPriceUpdateResponse.html" title="TOP RESPONSE API: 更新商品SKU的价格" alt="" coords="181,8795,384,8824"/>
+<area shape="rect" id="node319" href="$classItemSkusGetResponse.html" title="TOP RESPONSE API: * 获取多个商品下的所有sku." alt="" coords="204,8848,361,8877"/>
+<area shape="rect" id="node321" href="$classItemSkuUpdateResponse.html" title="TOP RESPONSE API: *更新一个sku的数据 需要更新的sku通过属性properties进行匹配查找 商品的数量和价格必须大于等于0 *sku记录会更新到指定的num_iid对应的商品中..." alt="" coords="197,8901,368,8931"/>
+<area shape="rect" id="node323" href="$classItemsListGetResponse.html" title="TOP RESPONSE API: 查看非公开属性时需要用户登录" alt="" coords="205,8955,360,8984"/>
+<area shape="rect" id="node325" href="$classItemsOnsaleGetResponse.html" title="TOP RESPONSE API: 获取当前用户作为卖家的出售中的商品列表，并能根据传入的搜索条件对出售中的商品列表进行过滤 只能获得商品的部分信息，商品的详细信息请通过taobao.item.get获取" alt="" coords="195,9008,371,9037"/>
+<area shape="rect" id="node327" href="$classItemTemplatesGetResponse.html" title="TOP RESPONSE API: 查询当前登录用户的店铺的宝贝详情页的模板名称" alt="" coords="188,9061,377,9091"/>
+<area shape="rect" id="node329" href="$classItemUpdateDelistingResponse.html" title="TOP RESPONSE API: * 单个商品下架 输入的num_iid必须属于当前会话用户" alt="" coords="183,9115,383,9144"/>
+<area shape="rect" id="node331" href="$classItemUpdateListingResponse.html" title="TOP RESPONSE API: * 单个商品上架 输入的num_iid必须属于当前会话用户" alt="" coords="189,9168,376,9197"/>
+<area shape="rect" id="node333" href="$classItemUpdateResponse.html" title="TOP RESPONSE API: 根据传入的num_iid更新对应的商品的数据 传入的num_iid所对应的商品必须属于当前会话的用户 商品的属性和sku的属性有包含的关系，商品的价格要位于sku的价..." alt="" coords="208,9221,357,9251"/>
+<area shape="rect" id="node335" href="$classJipiaoPolicyGetResponse.html" title="TOP RESPONSE API: 根据政策id或者政策外部id查询政策信息" alt="" coords="197,9275,368,9304"/>
+<area shape="rect" id="node337" href="$classJipiaoPolicyProcessResponse.html" title="TOP RESPONSE API: 添加/修改一条机票政策" alt="" coords="184,9328,381,9357"/>
+<area shape="rect" id="node339" href="$classJipiaoPolicystatusUpdateResponse.html" title="TOP RESPONSE API: 根据外部产品id，进行政策状态更新，挂起/解挂/删除" alt="" coords="197,9381,368,9427"/>
+<area shape="rect" id="node341" href="$classKfcKeywordSearchResponse.html" title="TOP RESPONSE API: 对输入的文本信息进行禁忌关键词匹配，返回匹配的结果" alt="" coords="187,9451,379,9480"/>
+<area shape="rect" id="node343" href="$classLogisticsAddressAddResponse.html" title="TOP RESPONSE API: 通过此接口新增卖家地址库,卖家最多可添加5条地址库,新增第一条卖家地址，将会自动设为默认地址库" alt="" coords="181,9504,384,9533"/>
+<area shape="rect" id="node345" href="$classLogisticsAddressModifyResponse.html" title="TOP RESPONSE API: 卖家地址库修改" alt="" coords="173,9557,392,9587"/>
+<area shape="rect" id="node347" href="$classLogisticsAddressRemoveResponse.html" title="TOP RESPONSE API: 用此接口删除卖家地址库" alt="" coords="168,9611,397,9640"/>
+<area shape="rect" id="node349" href="$classLogisticsAddressSearchResponse.html" title="TOP RESPONSE API: 通过此接口查询卖家地址库，" alt="" coords="172,9664,393,9693"/>
+<area shape="rect" id="node351" href="$classLogisticsCompaniesGetResponse.html" title="TOP RESPONSE API: 查询淘宝网合作的物流公司信息，用于发货接口。" alt="" coords="173,9717,392,9747"/>
+<area shape="rect" id="node353" href="$classLogisticsConsignResendResponse.html" title="TOP RESPONSE API: 支持卖家发货后修改物流公司和运单号。支持订单类型支持在线下单和自己联系。 自己联系只能切换为自己联系的公司，在线下单也只能切换为在线下单的物流公司。" alt="" coords="169,9771,396,9800"/>
+<area shape="rect" id="node355" href="$classLogisticsDummySendResponse.html" title="TOP RESPONSE API: 用户调用该接口可实现无需物流（虚拟）发货,使用该接口发货，交易订单状态会直接变成卖家已发货" alt="" coords="179,9824,387,9853"/>
+<area shape="rect" id="node357" href="$classLogisticsOfflineSendResponse.html" title="TOP RESPONSE API: 用户调用该接口可实现自己联系发货（线下物流），使用该接口发货，交易订单状态会直接变成卖家已发货。不支持货到付款、在线下单类型的订单。" alt="" coords="183,9877,383,9907"/>
+<area shape="rect" id="node359" href="$classLogisticsOnlineCancelResponse.html" title="TOP RESPONSE API: 调此接口取消发货的订单，重新选择物流公司发货。前提是物流公司未揽收货物。对未发货和已经被物流公司揽收的物流订单，是不能取消的。" alt="" coords="177,9931,388,9960"/>
+<area shape="rect" id="node361" href="$classLogisticsOnlineConfirmResponse.html" title="TOP RESPONSE API: 确认发货的目的是让交易流程继承走下去，确认发货后交易状态会由【买家已付款】变为【卖家已发货】，然后买家才可以确认收货，货款打入卖家账号。货到付款的订单除外" alt="" coords="175,9984,391,10013"/>
+<area shape="rect" id="node363" href="$classLogisticsOnlineSendResponse.html" title="TOP RESPONSE API: 用户调用该接口可实现在线订单发货（支持货到付款） 调用该接口实现在线下单发货，有两种情况： &#160;&lt;font color=&quot;red&quot;&gt;如果不输入运单号的情况：交易状态不会..." alt="" coords="183,10037,383,10067"/>
+<area shape="rect" id="node365" href="$classLogisticsOrderCancelResponse.html" title="TOP RESPONSE API: 运单发货后，客户或者系统需要撤销运单时，调用撤销接口。" alt="" coords="180,10091,385,10120"/>
+<area shape="rect" id="node367" href="$classLogisticsOrderChargeResponse.html" title="TOP RESPONSE API: 订单价格计算" alt="" coords="180,10144,385,10173"/>
+<area shape="rect" id="node369" href="$classLogisticsOrderConsignResponse.html" title="TOP RESPONSE API: 货运发货接口。通过该接口可以在通过淘宝对物流公司下单，并且可以享有部分折扣优惠。" alt="" coords="176,10197,389,10227"/>
+<area shape="rect" id="node371" href="$classLogisticsOrdersDetailGetResponse.html" title="TOP RESPONSE API: 查询物流订单的详细信息，涉及用户隐私字段。（注：该API主要是提供给卖家查询物流订单使用，买家查询物流订单，建议使用taobao.logistics.trace.search）" alt="" coords="199,10250,367,10297"/>
+<area shape="rect" id="node373" href="$classLogisticsOrdersGetResponse.html" title="TOP RESPONSE API: 批量查询物流订单。（注：该API主要是提供给卖家查询物流订单使用，买家查询物流订单，建议使用taobao.logistics.trace.search）" alt="" coords="187,10320,379,10349"/>
+<area shape="rect" id="node375" href="$classLogisticsOrderstorePushResponse.html" title="TOP RESPONSE API: 卖家使用自己的物流公司发货，可以通过本接口将订单的仓内信息推送到淘宝，淘宝保存这些仓内信息，并可在页面展示这些仓内信息。" alt="" coords="171,10373,395,10403"/>
+<area shape="rect" id="node377" href="$classLogisticsOrdertracePushResponse.html" title="TOP RESPONSE API: 卖家使用自己的物流公司发货，可以通过本接口将订单的流转信息推送到淘宝，淘宝保存这些流转信息，并可在页面展示这些流转信息。" alt="" coords="171,10427,395,10456"/>
+<area shape="rect" id="node379" href="$classLogisticsPartnersGetResponse.html" title="TOP RESPONSE API: 查询物流公司信息（可以查询目的地可不可达情况）" alt="" coords="181,10480,384,10509"/>
+<area shape="rect" id="node381" href="$classLogisticsRouteQueryResponse.html" title="TOP RESPONSE API: 根据始发地，目的地等条件查询线路的分页列表" alt="" coords="181,10533,384,10563"/>
+<area shape="rect" id="node383" href="$classLogisticsTraceSearchResponse.html" title="TOP RESPONSE API: 用户根据淘宝交易号查询物流流转信息，如2010&#45;8&#45;10 15：23：00到达杭州集散地。 此接口的返回信息都由物流公司提供。" alt="" coords="180,10587,385,10616"/>
+<area shape="rect" id="node385" href="$classMarketingPromotionKfcResponse.html" title="TOP RESPONSE API: 活动名称与描述违禁词检查" alt="" coords="175,10640,391,10669"/>
+<area shape="rect" id="node387" href="$classMarketingPromotionsGetResponse.html" title="TOP RESPONSE API: 根据商品ID查询卖家使用该第三方工具对商品设置的所有优惠策略" alt="" coords="171,10693,395,10723"/>
+<area shape="rect" id="node389" href="$classMarketingTagsGetResponse.html" title="TOP RESPONSE API: 查询人群标签，返回卖家创建的全部人群标签（有效的）" alt="" coords="189,10747,376,10776"/>
+<area shape="rect" id="node391" href="$classMicropayOrderConfirmpayurlGetResponse.html" title="TOP RESPONSE API: 创建并支付冻结单之后，使用此接口获取有密支付的url 这个接口调用的前提是创建冻结金的参数信息pay_confirm=PAY_PASSWORD." alt="" coords="189,10799,376,10846"/>
+<area shape="rect" id="node393" href="$classMicropayOrderDirectPayResponse.html" title="TOP RESPONSE API: 1. 创建并支付一笔冻结金后，调用此接口" alt="" coords="171,10869,395,10899"/>
+<area shape="rect" id="node395" href="$classMicropayOrderFreezepayurlGetResponse.html" title="TOP RESPONSE API: 用户创建一笔支付订单之后,使用此接口获取支付冻结金的url来支付冻结金" alt="" coords="192,10922,373,10969"/>
+<area shape="rect" id="node397" href="$classMicropayOrderFreezeResponse.html" title="TOP RESPONSE API: 该接口是支付宝提成冻结支付宝资金的操作" alt="" coords="180,10992,385,11021"/>
+<area shape="rect" id="node399" href="$classMicropayOrderGetResponse.html" title="TOP RESPONSE API: 用户对已经冻结的订单可以调用此接口查询明细" alt="" coords="189,11045,376,11075"/>
+<area shape="rect" id="node401" href="$classMicropayOrderUnfreezeResponse.html" title="TOP RESPONSE API: 解冻冻结单API." alt="" coords="173,11099,392,11128"/>
+<area shape="rect" id="node403" href="$classPictureCategoryAddResponse.html" title="TOP RESPONSE API: 同一卖家最多添加500个图片分类，图片分类名称长度最大为20个字符" alt="" coords="184,11152,381,11181"/>
+<area shape="rect" id="node405" href="$classPictureCategoryGetResponse.html" title="TOP RESPONSE API: 获取图片分类信息" alt="" coords="185,11205,380,11235"/>
+<area shape="rect" id="node407" href="$classPictureCategoryUpdateResponse.html" title="TOP RESPONSE API: 更新图片分类的名字，或者更新图片分类的父分类（即分类移动）。只能移动2级分类到非2级分类，默认分类和1级分类不可移动。" alt="" coords="175,11259,391,11288"/>
+<area shape="rect" id="node409" href="$classPictureDeleteResponse.html" title="TOP RESPONSE API: 删除图片空间图片" alt="" coords="203,11312,363,11341"/>
+<area shape="rect" id="node411" href="$classPictureGetResponse.html" title="TOP RESPONSE API: 获取图片信息" alt="" coords="212,11365,353,11395"/>
+<area shape="rect" id="node413" href="$classPictureIsreferencedGetResponse.html" title="TOP RESPONSE API: 查询图片是否被引用，被引用返回true，未被引用返回false." alt="" coords="176,11419,389,11448"/>
+<area shape="rect" id="node415" href="$classPictureReferencedGetResponse.html" title="TOP RESPONSE API: 查询图片被引用的详情，包括引用者，引用者名字，引用者地址" alt="" coords="177,11472,388,11501"/>
+<area shape="rect" id="node417" href="$classPictureReplaceResponse.html" title="TOP RESPONSE API: 替换一张图片，只替换图片数据，图片名称，图片分类等保持不变。" alt="" coords="197,11525,368,11555"/>
+<area shape="rect" id="node419" href="$classPictureUpdateResponse.html" title="TOP RESPONSE API: 修改指定图片的图片名" alt="" coords="201,11579,364,11608"/>
+<area shape="rect" id="node421" href="$classPictureUploadResponse.html" title="TOP RESPONSE API: 上传单张图片" alt="" coords="201,11632,364,11661"/>
+<area shape="rect" id="node423" href="$classPictureUserinfoGetResponse.html" title="TOP RESPONSE API: 查询用户的图片空间使用信息，包括：订购量，已使用容量，免费容量，总的可使用容量，订购有效期，剩余容量" alt="" coords="187,11685,379,11715"/>
+<area shape="rect" id="node425" href="$classPointBudgetGetResponse.html" title="TOP RESPONSE API: 查询已采购的集分宝余额，操作流程如下： 1、申请支付宝增值包。 2、申请支付宝应用上线时选择集分宝API。 3、引导商家签约支付宝集分宝服务，地址为https://o..." alt="" coords="196,11739,369,11768"/>
+<area shape="rect" id="node427" href="$classPointOrderAddResponse.html" title="TOP RESPONSE API: 向用户发送集分宝，发放集分宝之前，操作流程如下： 1、申请支付宝增值包。 2、申请支付宝应用上线时选择集分宝API。 3、引导商家签约支付宝集分宝服务，地址为http..." alt="" coords="200,11792,365,11821"/>
+<area shape="rect" id="node429" href="$classPointOrderGetResponse.html" title="TOP RESPONSE API: 查询集分宝发放详情，发放API是alipay.point.order.add。请先熟悉发放API的流程。" alt="" coords="201,11845,364,11875"/>
+<area shape="rect" id="node431" href="$classProductAddResponse.html" title="TOP RESPONSE API: 获取类目ID，必需是叶子类目ID；调用taobao.itemcats.get.v2获取 传入关键属性,结构:pid:vid;pid:vid.调用taobao.itemprops.get.v2获取pid, 调用taobao.itempropvalues.get获取vid;如果碰到用户自定义属性,请用customer_props." alt="" coords="208,11899,357,11928"/>
+<area shape="rect" id="node433" href="$classProductGetResponse.html" title="TOP RESPONSE API: 两种方式查看一个产品详细信息: 传入product_id来查询 传入cid和props来查询" alt="" coords="209,11952,356,11981"/>
+<area shape="rect" id="node435" href="$classProductImgDeleteResponse.html" title="TOP RESPONSE API: 1.传入非主图ID 2.传入产品ID 删除产品非主图" alt="" coords="189,12005,376,12035"/>
+<area shape="rect" id="node437" href="$classProductImgUploadResponse.html" title="TOP RESPONSE API: 1.传入产品ID 2.传入图片内容 注意：图片最大为500K,只支持JPG,GIF格式,如果需要传多张，可调多次" alt="" coords="188,12059,377,12088"/>
+<area shape="rect" id="node439" href="$classProductPropimgDeleteResponse.html" title="TOP RESPONSE API: 1.传入属性图片ID 2.传入产品ID 删除一个产品的属性图片" alt="" coords="177,12112,388,12141"/>
+<area shape="rect" id="node441" href="$classProductPropimgUploadResponse.html" title="TOP RESPONSE API: 传入产品ID 传入props,目前仅支持颜色属性.调用taobao.itemprops.get.v2取得颜色属性pid, 再用taobao.itempropvalues.get取得vid;格式:pid:vid,只能传入一个颜色pid:vid串; 传入图片内容 注意：图片最大为2M,只支持JPG,GIF,如果需要传多张，可调多次" alt="" coords="176,12165,389,12195"/>
+<area shape="rect" id="node443" href="$classProductsGetResponse.html" title="TOP RESPONSE API: 根据淘宝会员帐号搜索所有产品信息，只有天猫商家发布商品时才需要用到。 注意：支持分页，每页最多返回100条,默认值为40,页码从1开始，默认为第一页" alt="" coords="205,12219,360,12248"/>
+<area shape="rect" id="node445" href="$classProductsSearchResponse.html" title="TOP RESPONSE API: 只有天猫商家发布商品时才需要用到； 两种方式搜索所有产品信息(二种至少传一种): 传入关键字q搜索 传入cid和props搜索 返回值支持:product_id..." alt="" coords="196,12272,369,12301"/>
+<area shape="rect" id="node447" href="$classProductUpdateResponse.html" title="TOP RESPONSE API: 传入产品ID 可修改字段：outer_id,binds,sale_props,name,price,desc,image 注意：1.可以修改主图,不能修改子图片,主图最大500K,目前仅支持GIF,JPG 2.商城卖家产品发布24小时后不能作删除或修改操作" alt="" coords="199,12325,367,12355"/>
+<area shape="rect" id="node449" href="$classPromotionActivityAddResponse.html" title="TOP RESPONSE API: 创建某个卖家的店铺优惠券领取活动。返回，优惠券领取活动ID，优惠券领取链接。" alt="" coords="180,12379,385,12408"/>
+<area shape="rect" id="node451" href="$classPromotionActivityCancelResponse.html" title="TOP RESPONSE API: 取消正在开始的店铺优惠券活动" alt="" coords="171,12432,395,12461"/>
+<area shape="rect" id="node453" href="$classPromotionActivityDeleteResponse.html" title="TOP RESPONSE API: 删除卖家创建的店铺优惠券活动" alt="" coords="172,12485,393,12515"/>
+<area shape="rect" id="node455" href="$classPromotionActivityGetResponse.html" title="TOP RESPONSE API: 查询某个卖家的店铺优惠券领取活动 返回，优惠券领取活动ID，优惠券ID，总领用量，每人限领量，已领取数量 领取活动状态，优惠券领取链接 最多50个优惠券..." alt="" coords="180,12539,385,12568"/>
+<area shape="rect" id="node457" href="$classPromotionCouponAddResponse.html" title="TOP RESPONSE API: 创建店铺优惠券。有效期内的店铺优惠券总数量不超过200张" alt="" coords="179,12592,387,12621"/>
+<area shape="rect" id="node459" href="$classPromotionCoupondetailGetResponse.html" title="TOP RESPONSE API: 通过接口可以查询某个店铺优惠券的买家详细信息返回的信息，买家昵称， 使用渠道，使用状态，总数量" alt="" coords="193,12645,372,12691"/>
+<area shape="rect" id="node461" href="$classPromotionCouponSendResponse.html" title="TOP RESPONSE API: 通过接口批量发放店铺优惠券（每次只能发送100张），发送成功则返回为空，发送失败则返回失败的买家列表和发送成功的买家和优惠券的number。注：如果所有买家都发放失败..." alt="" coords="176,12715,389,12744"/>
+<area shape="rect" id="node463" href="$classPromotionCouponsGetResponse.html" title="TOP RESPONSE API: 查询卖家已经创建的优惠券，接口返回信息：优惠券ID，面值，创建时间，有效期，使用条件，使用渠道，创建渠道，优惠券总数量" alt="" coords="176,12768,389,12797"/>
+<area shape="rect" id="node465" href="$classPromotionCouponTransferResponse.html" title="TOP RESPONSE API: 买家可以将自己“未使用”状态下的优惠券转发给任意淘宝用户。 只能转发“未使用”状态下的优惠券" alt="" coords="167,12821,399,12851"/>
+<area shape="rect" id="node467" href="$classPromotionLimitdiscountDetailGetResponse.html" title="TOP RESPONSE API: 限时打折详情查询。查询出指定限时打折的对应商品记录信息。" alt="" coords="187,12874,379,12921"/>
+<area shape="rect" id="node469" href="$classPromotionLimitdiscountGetResponse.html" title="TOP RESPONSE API: 分页查询某个卖家的限时打折信息。每页20条数据，按照结束时间降序排列。也可指定某一个限时打折id查询唯一的限时打折信息。" alt="" coords="193,12943,372,12990"/>
+<area shape="rect" id="node471" href="$classPromotionMealGetResponse.html" title="TOP RESPONSE API: 搭配套餐查询。每个卖家最多创建50个搭配套餐，所以查询不会分页，会将所有的满足状态的搭配套餐全部查出。该接口不会校验商品的下架或库存为0，查询结果的状态表明搭配套餐在..." alt="" coords="188,13013,377,13043"/>
+<area shape="rect" id="node473" href="$classRandcatControlGetResponse.html" title="TOP RESPONSE API: 获取到所有的类目，品牌的控制信息，达尔文类目是会以品牌和类目作为控制的力度来管理商品，所有的控制信息可以通过这个接口获取到信息。" alt="" coords="187,13067,379,13096"/>
+<area shape="rect" id="node475" href="$classRandcatSalesproGetResponse.html" title="TOP RESPONSE API: 获取被管控的品牌类目下销售信息，销售信息又分成两中，一种是规格属性，要求针对这个属性创建规格信息，第二种是非规格属性（一般会被称为营销属性），这种信息主要是会影响到价..." alt="" coords="181,13120,384,13149"/>
+<area shape="rect" id="node477" href="$classRdsDbCreateResponse.html" title="TOP RESPONSE API: 在rds实例里创建数据库" alt="" coords="203,13173,363,13203"/>
+<area shape="rect" id="node479" href="$classRdsDbDeleteResponse.html" title="TOP RESPONSE API: 通过api删除用户RDS的数据库" alt="" coords="203,13227,363,13256"/>
+<area shape="rect" id="node481" href="$classRdsDbGetResponse.html" title="TOP RESPONSE API: 查询rds实例下的数据库" alt="" coords="212,13280,353,13309"/>
+<area shape="rect" id="node483" href="$classRefundGetResponse.html" title="TOP RESPONSE API: 获取单笔退款详情" alt="" coords="211,13333,355,13363"/>
+<area shape="rect" id="node485" href="$classRefundMessageAddResponse.html" title="TOP RESPONSE API: 创建退款留言/凭证" alt="" coords="184,13387,381,13416"/>
+<area shape="rect" id="node487" href="$classRefundMessagesGetResponse.html" title="TOP RESPONSE API: 单笔退款详情" alt="" coords="181,13440,384,13469"/>
+<area shape="rect" id="node489" href="$classRefundRefuseResponse.html" title="TOP RESPONSE API: 卖家拒绝单笔退款交易，要求如下：" alt="" coords="200,13493,365,13523"/>
+<area shape="rect" id="node491" href="$classRefundsApplyGetResponse.html" title="TOP RESPONSE API: 查询买家申请的退款列表，且查询外店的退款列表时需要指定交易类型" alt="" coords="191,13547,375,13576"/>
+<area shape="rect" id="node493" href="$classRefundsReceiveGetResponse.html" title="TOP RESPONSE API: 查询卖家收到的退款列表，查询外店的退款列表时需要指定交易类型" alt="" coords="184,13600,381,13629"/>
+<area shape="rect" id="node495" href="$classRoductSpecAddResponse.html" title="TOP RESPONSE API: 增加产品规格" alt="" coords="195,13653,371,13683"/>
+<area shape="rect" id="node497" href="$classRoductSpecGetResponse.html" title="TOP RESPONSE API: 通过当个的spec_id获取到这个产品规格的信息，主要是因为产品规格是要经过审核的，所以通过这个接口可以获取到是否通过审核 通过参看这个ProductSpec的sta..." alt="" coords="196,13707,369,13736"/>
+<area shape="rect" id="node499" href="$classRoductSpecPicUploadResponse.html" title="TOP RESPONSE API: 上传指定类型的产品规格认证文件，并返回存有上传成功图片url的产品规格对象" alt="" coords="176,13760,389,13789"/>
+<area shape="rect" id="node501" href="$classRoductSpecsGetResponse.html" title="TOP RESPONSE API: 按productID下载或品牌下载产品规格，返回一组的产品规格信息。" alt="" coords="192,13813,373,13843"/>
+<area shape="rect" id="node503" href="$classScitemAddResponse.html" title="TOP RESPONSE API: 发布后端商品" alt="" coords="211,13867,355,13896"/>
+<area shape="rect" id="node505" href="$classScitemGetResponse.html" title="TOP RESPONSE API: 根据id查询商品" alt="" coords="212,13920,353,13949"/>
+<area shape="rect" id="node507" href="$classScitemMapAddResponse.html" title="TOP RESPONSE API: 创建IC商品或分销商品与后端商品的映射关系" alt="" coords="197,13973,368,14003"/>
+<area shape="rect" id="node509" href="$classScitemMapDeleteResponse.html" title="TOP RESPONSE API: 根据后端商品Id，失效指定用户的商品与后端商品的映射关系" alt="" coords="191,14027,375,14056"/>
+<area shape="rect" id="node511" href="$classScitemMapQueryResponse.html" title="TOP RESPONSE API: 查找IC商品或分销商品与后端商品的关联信息。skuId如果不传就查找该itemId下所有的sku." alt="" coords="192,14080,373,14109"/>
+<area shape="rect" id="node513" href="$classScitemOutercodeGetResponse.html" title="TOP RESPONSE API: 根据outerCode查询商品" alt="" coords="181,14133,384,14163"/>
+<area shape="rect" id="node515" href="$classScitemQueryResponse.html" title="TOP RESPONSE API: 查询后端商品" alt="" coords="204,14187,361,14216"/>
+<area shape="rect" id="node517" href="$classScitemUpdateResponse.html" title="TOP RESPONSE API: 根据商品ID或商家编码修改后端商品" alt="" coords="201,14240,364,14269"/>
+<area shape="rect" id="node519" href="$classSellercatsListAddResponse.html" title="TOP RESPONSE API: 此API添加卖家店铺内自定义类目 父类目parent_cid值等于0：表示此类目为店铺下的一级类目，值不等于0：表示此类目有父类目 注：因为缓存的关系..." alt="" coords="192,14293,373,14323"/>
+<area shape="rect" id="node521" href="$classSellercatsListGetResponse.html" title="TOP RESPONSE API: 此API获取当前卖家店铺在淘宝前端被展示的浏览导航类目（面向买家）" alt="" coords="192,14347,373,14376"/>
+<area shape="rect" id="node523" href="$classSellercatsListUpdateResponse.html" title="TOP RESPONSE API: 此API更新卖家店铺内自定义类目 注：因为缓存的关系，添加的新类目需8个小时后才可以在淘宝页面上正常显示，但是不影响在该类目下商品发布" alt="" coords="181,14400,384,14429"/>
+<area shape="rect" id="node525" href="$classSellercenterRoleAddResponse.html" title="TOP RESPONSE API: 给指定的卖家创建新的子账号角色 &#160;如果需要授权的权限点有下级权限点或上级权限点，把该权限点的父权限点和该权限点的所有子权限都一并做赋权操作，并递归处理 例如：权限点列..." alt="" coords="183,14453,383,14483"/>
+<area shape="rect" id="node527" href="$classSellercenterRoleInfoGetResponse.html" title="TOP RESPONSE API: 获取指定角色的信息。只能查询属于自己的角色信息 (主账号或者某个主账号的子账号登陆，只能查询属于该主账号的角色信息)" alt="" coords="173,14507,392,14536"/>
+<area shape="rect" id="node529" href="$classSellercenterRolemembersGetResponse.html" title="TOP RESPONSE API: 获取指定卖家的角色下属员工列表，只能获取属于登陆者自己的信息。" alt="" coords="187,14559,379,14606"/>
+<area shape="rect" id="node531" href="$classSellercenterRolesGetResponse.html" title="TOP RESPONSE API: 获取指定卖家的角色列表，只能获取属于登陆者自己的信息。" alt="" coords="180,14629,385,14659"/>
+<area shape="rect" id="node533" href="$classSellercenterSubuserPermissionsRolesGetResponse.html" title="TOP RESPONSE API: 查询指定的子账号的被直接赋予的权限信息和角色信息。 返回对象中包括直接赋予子账号的权限点信息、被赋予的角色以及角色的对应权限点信息。" alt="" coords="177,14682,388,14729"/>
+<area shape="rect" id="node535" href="$classSellercenterSubusersGetResponse.html" title="TOP RESPONSE API: 根据主账号nick查询该账号下所有的子账号列表，只能查询属于自己的账号信息 (主账号以及所属子账号)" alt="" coords="169,14752,396,14781"/>
+<area shape="rect" id="node537" href="$classSellercenterUserPermissionsGetResponse.html" title="TOP RESPONSE API: 获取指定用户的权限集合，并不组装成树。如果是主账号，返回所有的权限列表；如果是子账号，返回所有已授权的权限。只能查询属于自己的账号信息 (如果是主账号，则是主账号以及..." alt="" coords="188,14805,377,14851"/>
+<area shape="rect" id="node539" href="$classShopcatsListGetResponse.html" title="TOP RESPONSE API: 获取淘宝面向买家的浏览导航类目（跟后台卖家商品管理的类目有差异）" alt="" coords="193,14875,372,14904"/>
+<area shape="rect" id="node541" href="$classShopGetResponse.html" title="TOP RESPONSE API: 获取卖家店铺的基本信息" alt="" coords="217,14928,348,14957"/>
+<area shape="rect" id="node543" href="$classShoprecommendItemsGetResponse.html" title="TOP RESPONSE API: 根据店铺信息推荐相关联的宝贝集" alt="" coords="167,14981,399,15011"/>
+<area shape="rect" id="node545" href="$classShoprecommendShopsGetResponse.html" title="TOP RESPONSE API: 根据店铺信息推荐相关联的店铺集" alt="" coords="164,15035,401,15064"/>
+<area shape="rect" id="node547" href="$classShopRemainshowcaseGetResponse.html" title="TOP RESPONSE API: 获取卖家店铺剩余橱窗数量，已用橱窗数量，总橱窗数量（对于B卖家，后两个参数返回&#45;1）" alt="" coords="165,15088,400,15117"/>
+<area shape="rect" id="node549" href="$classShopUpdateResponse.html" title="TOP RESPONSE API: 目前只支持标题、公告和描述的更新" alt="" coords="207,15141,359,15171"/>
+<area shape="rect" id="node551" href="$classSimbaAccountBalanceGetResponse.html" title="TOP RESPONSE API: 获取实时余额，”元”为单位" alt="" coords="165,15195,400,15224"/>
+<area shape="rect" id="node553" href="$classSimbaAdgroupAddResponse.html" title="TOP RESPONSE API: 创建一个推广组" alt="" coords="188,15248,377,15277"/>
+<area shape="rect" id="node555" href="$classSimbaAdgroupAdgroupcatmatchsGetResponse.html" title="TOP RESPONSE API: 根据一组推广组id获取推广组类目出价列表,." alt="" coords="175,15301,391,15347"/>
+<area shape="rect" id="node557" href="$classSimbaAdgroupCampcatmatchsGetResponse.html" title="TOP RESPONSE API: 根据一个推广计划的id获取一页推广组类目出价列表" alt="" coords="181,15370,384,15417"/>
+<area shape="rect" id="node559" href="$classSimbaAdgroupCatmatchforecastGetResponse.html" title="TOP RESPONSE API: 获取指定推广组下给定出价的类目出价预估信息;." alt="" coords="177,15439,388,15486"/>
+<area shape="rect" id="node561" href="$classSimbaAdgroupCatmatchGetResponse.html" title="TOP RESPONSE API: 取得一个推广组的类目出价" alt="" coords="161,15509,404,15539"/>
+<area shape="rect" id="node563" href="$classSimbaAdgroupCatmatchUpdateResponse.html" title="TOP RESPONSE API: 更新一个推广组的类目出价，可以设置类目出价、是否使用默认出价、是否打开类目出价" alt="" coords="180,15562,385,15609"/>
+<area shape="rect" id="node565" href="$classSimbaAdgroupChangedcatmatchsGetResponse.html" title="TOP RESPONSE API: 分页获取修改过的推广组类目出价ID , 推广组ID，修改时间" alt="" coords="173,15631,392,15678"/>
+<area shape="rect" id="node567" href="$classSimbaAdgroupDeletedcatmatchsGetResponse.html" title="TOP RESPONSE API: 获取删除的类目出价列表（只存类目出价ID和推广组ID）" alt="" coords="176,15701,389,15747"/>
+<area shape="rect" id="node569" href="$classSimbaAdgroupDeleteResponse.html" title="TOP RESPONSE API: 删除一个推广组" alt="" coords="181,15771,384,15800"/>
+<area shape="rect" id="node571" href="$classSimbaAdgroupidsChangedGetResponse.html" title="TOP RESPONSE API: 获取修改的推广组ID." alt="" coords="184,15823,381,15870"/>
+<area shape="rect" id="node573" href="$classSimbaAdgroupidsDeletedGetResponse.html" title="TOP RESPONSE API: 获取删除的推广组ID." alt="" coords="188,15893,377,15939"/>
+<area shape="rect" id="node575" href="$classSimbaAdgroupNonsearchpricesUpdateResponse.html" title="TOP RESPONSE API: 修改通投出价" alt="" coords="180,15962,385,16009"/>
+<area shape="rect" id="node577" href="$classSimbaAdgroupNonsearchstatesUpdateResponse.html" title="TOP RESPONSE API: 更改通投状态（暂停或启动）" alt="" coords="180,16031,385,16078"/>
+<area shape="rect" id="node579" href="$classSimbaAdgroupOnlineitemsvonGetResponse.html" title="TOP RESPONSE API: 获取用户上架在线销售的全部宝贝" alt="" coords="184,16101,381,16147"/>
+<area shape="rect" id="node581" href="$classSimbaAdgroupsbyadgroupidsGetResponse.html" title="TOP RESPONSE API: 批量得到推广组" alt="" coords="188,16170,377,16217"/>
+<area shape="rect" id="node583" href="$classSimbaAdgroupsbycampaignidGetResponse.html" title="TOP RESPONSE API: 批量得到推广计划下的推广组" alt="" coords="185,16239,380,16286"/>
+<area shape="rect" id="node585" href="$classSimbaAdgroupsChangedGetResponse.html" title="TOP RESPONSE API: 分页获取修改的推广组ID和修改时间" alt="" coords="160,16309,405,16339"/>
+<area shape="rect" id="node587" href="$classSimbaAdgroupsItemExistResponse.html" title="TOP RESPONSE API: 判断在一个推广计划中是否已经推广了一个商品" alt="" coords="168,16363,397,16392"/>
+<area shape="rect" id="node589" href="$classSimbaAdgroupUpdateResponse.html" title="TOP RESPONSE API: 更新一个推广组的信息，可以设置默认出价、是否上线、非搜索出价、非搜索是否使用默认出价" alt="" coords="179,16416,387,16445"/>
+<area shape="rect" id="node591" href="$classSimbaCampaignAddResponse.html" title="TOP RESPONSE API: 创建一个推广计划" alt="" coords="183,16469,383,16499"/>
+<area shape="rect" id="node593" href="$classSimbaCampaignAreaGetResponse.html" title="TOP RESPONSE API: 取得一个推广计划的投放地域设置" alt="" coords="171,16523,395,16552"/>
+<area shape="rect" id="node595" href="$classSimbaCampaignAreaoptionsGetResponse.html" title="TOP RESPONSE API: 取得推广计划的可设置投放地域列表" alt="" coords="189,16575,376,16622"/>
+<area shape="rect" id="node597" href="$classSimbaCampaignAreaUpdateResponse.html" title="TOP RESPONSE API: 更新一个推广计划的投放地域" alt="" coords="160,16645,405,16675"/>
+<area shape="rect" id="node599" href="$classSimbaCampaignBudgetGetResponse.html" title="TOP RESPONSE API: 取得一个推广计划的日限额" alt="" coords="164,16699,401,16728"/>
+<area shape="rect" id="node601" href="$classSimbaCampaignBudgetUpdateResponse.html" title="TOP RESPONSE API: 更新一个推广计划的日限额" alt="" coords="183,16751,383,16798"/>
+<area shape="rect" id="node603" href="$classSimbaCampaignChanneloptionsGetResponse.html" title="TOP RESPONSE API: 取得推广计划的可设置投放频道列表" alt="" coords="179,16821,387,16867"/>
+<area shape="rect" id="node605" href="$classSimbaCampaignPlatformGetResponse.html" title="TOP RESPONSE API: 取得一个推广计划的投放平台设置" alt="" coords="189,16890,376,16937"/>
+<area shape="rect" id="node607" href="$classSimbaCampaignPlatformUpdateResponse.html" title="TOP RESPONSE API: 更新一个推广计划的平台设置" alt="" coords="179,16959,387,17006"/>
+<area shape="rect" id="node609" href="$classSimbaCampaignScheduleGetResponse.html" title="TOP RESPONSE API: 取得一个推广计划的分时折扣设置" alt="" coords="187,17029,379,17075"/>
+<area shape="rect" id="node611" href="$classSimbaCampaignScheduleUpdateResponse.html" title="TOP RESPONSE API: 更新一个推广计划的分时折扣设置" alt="" coords="176,17098,389,17145"/>
+<area shape="rect" id="node613" href="$classSimbaCampaignsGetResponse.html" title="TOP RESPONSE API: 取得一个客户的推广计划；" alt="" coords="180,17168,385,17197"/>
+<area shape="rect" id="node615" href="$classSimbaCampaignUpdateResponse.html" title="TOP RESPONSE API: 更新一个推广计划，可以设置推广计划名字，修改推广计划上下线状态。" alt="" coords="173,17221,392,17251"/>
+<area shape="rect" id="node617" href="$classSimbaCatmatchidsChangedGetResponse.html" title="TOP RESPONSE API: 获取更改过的类目出价ID." alt="" coords="180,17274,385,17321"/>
+<area shape="rect" id="node619" href="$classSimbaCatmatchidsDeletedGetResponse.html" title="TOP RESPONSE API: 获取删除的类目出价ID." alt="" coords="184,17343,381,17390"/>
+<area shape="rect" id="node621" href="$classSimbaCreativeAddResponse.html" title="TOP RESPONSE API: 创建一个创意" alt="" coords="188,17413,377,17443"/>
+<area shape="rect" id="node623" href="$classSimbaCreativeDeleteResponse.html" title="TOP RESPONSE API: 删除一个创意" alt="" coords="180,17467,385,17496"/>
+<area shape="rect" id="node625" href="$classSimbaCreativeidsChangedGetResponse.html" title="TOP RESPONSE API: 获取修改的创意ID." alt="" coords="184,17519,381,17566"/>
+<area shape="rect" id="node627" href="$classSimbaCreativeidsDeletedGetResponse.html" title="TOP RESPONSE API: 获取删除的创意ID." alt="" coords="188,17589,377,17635"/>
+<area shape="rect" id="node629" href="$classSimbaCreativesChangedGetResponse.html" title="TOP RESPONSE API: 分页获取修改过的广告创意ID和修改时间" alt="" coords="189,17658,376,17705"/>
+<area shape="rect" id="node631" href="$classSimbaCreativesGetResponse.html" title="TOP RESPONSE API: 取得一个推广组的所有创意或者根据一个创意Id列表取得一组创意； 如果同时提供了推广组Id和创意id列表，则优先使用推广组Id；" alt="" coords="185,17728,380,17757"/>
+<area shape="rect" id="node633" href="$classSimbaCreativesRecordGetResponse.html" title="TOP RESPONSE API: 根据一个创意Id列表取得创意对应的修改记录" alt="" coords="164,17781,401,17811"/>
+<area shape="rect" id="node635" href="$classSimbaCreativeUpdateResponse.html" title="TOP RESPONSE API: 更新一个创意的信息，可以设置创意标题、创意图片" alt="" coords="179,17835,387,17864"/>
+<area shape="rect" id="node637" href="$classSimbaCustomersAuthorizedGetResponse.html" title="TOP RESPONSE API: 取得当前登录用户的授权账户列表" alt="" coords="191,17887,375,17934"/>
+<area shape="rect" id="node639" href="$classSimbaInsightCatsanalysisGetResponse.html" title="TOP RESPONSE API: 类目分析数据查询" alt="" coords="196,17957,369,18003"/>
+<area shape="rect" id="node641" href="$classSimbaInsightCatsbaseGetResponse.html" title="TOP RESPONSE API: 类目基础数据查询" alt="" coords="165,18027,400,18056"/>
+<area shape="rect" id="node643" href="$classSimbaInsightCatsforecastGetResponse.html" title="TOP RESPONSE API: 类目属性预测" alt="" coords="196,18079,369,18126"/>
+<area shape="rect" id="node645" href="$classSimbaInsightCatsGetResponse.html" title="TOP RESPONSE API: 获取类目信息" alt="" coords="180,18149,385,18179"/>
+<area shape="rect" id="node647" href="$classSimbaInsightCatsrelatedwordGetResponse.html" title="TOP RESPONSE API: 类目相关词查询" alt="" coords="187,18202,379,18249"/>
+<area shape="rect" id="node649" href="$classSimbaInsightCatstopwordGetResponse.html" title="TOP RESPONSE API: 类目TOP词查询" alt="" coords="187,18271,379,18318"/>
+<area shape="rect" id="node651" href="$classSimbaInsightToplevelcatsGetResponse.html" title="TOP RESPONSE API: 获取一级类目" alt="" coords="197,18341,368,18387"/>
+<area shape="rect" id="node653" href="$classSimbaInsightWordsanalysisGetResponse.html" title="TOP RESPONSE API: 词分析数据查询" alt="" coords="191,18410,375,18457"/>
+<area shape="rect" id="node655" href="$classSimbaInsightWordsbaseGetResponse.html" title="TOP RESPONSE API: 词基础数据查询" alt="" coords="191,18479,375,18526"/>
+<area shape="rect" id="node657" href="$classSimbaInsightWordscatsGetResponse.html" title="TOP RESPONSE API: 词和类目查询" alt="" coords="192,18549,373,18595"/>
+<area shape="rect" id="node659" href="$classSimbaKeywordidsChangedGetResponse.html" title="TOP RESPONSE API: 获取修改的词ID." alt="" coords="183,18618,383,18665"/>
+<area shape="rect" id="node661" href="$classSimbaKeywordidsDeletedGetResponse.html" title="TOP RESPONSE API: 获取删除的词ID." alt="" coords="187,18687,379,18734"/>
+<area shape="rect" id="node663" href="$classSimbaKeywordKeywordforecastGetResponse.html" title="TOP RESPONSE API: 根据词ID和给定的出价获取词的预估信息" alt="" coords="179,18757,387,18803"/>
+<area shape="rect" id="node665" href="$classSimbaKeywordsbyadgroupidGetResponse.html" title="TOP RESPONSE API: 取得一个推广组的所有关键词" alt="" coords="189,18826,376,18873"/>
+<area shape="rect" id="node667" href="$classSimbaKeywordsbykeywordidsGetResponse.html" title="TOP RESPONSE API: 根据一个关键词Id列表取得一组关键词" alt="" coords="184,18895,381,18942"/>
+<area shape="rect" id="node669" href="$classSimbaKeywordscatQscoreGetResponse.html" title="TOP RESPONSE API: 取得一个推广组的所有关键词和类目出价的质量得分列表" alt="" coords="184,18965,381,19011"/>
+<area shape="rect" id="node671" href="$classSimbaKeywordsChangedGetResponse.html" title="TOP RESPONSE API: 分页获取修改过的关键词ID和修改时间" alt="" coords="159,19035,407,19064"/>
+<area shape="rect" id="node673" href="$classSimbaKeywordsDeleteResponse.html" title="TOP RESPONSE API: 删除一批关键词" alt="" coords="176,19088,389,19117"/>
+<area shape="rect" id="node675" href="$classSimbaKeywordsPricevonSetResponse.html" title="TOP RESPONSE API: 设置一批关键词的出价" alt="" coords="189,19141,376,19187"/>
+<area shape="rect" id="node677" href="$classSimbaKeywordsQscoreGetResponse.html" title="TOP RESPONSE API: 取得一个推广组的所有关键词的质量得分列表" alt="" coords="164,19211,401,19240"/>
+<area shape="rect" id="node679" href="$classSimbaKeywordsRecommendGetResponse.html" title="TOP RESPONSE API: 取得一个推广组的推荐关键词列表" alt="" coords="177,19263,388,19310"/>
+<area shape="rect" id="node681" href="$classSimbaKeywordsvonAddResponse.html" title="TOP RESPONSE API: 创建一批关键词" alt="" coords="173,19333,392,19363"/>
+<area shape="rect" id="node683" href="$classSimbaLoginAuthsignGetResponse.html" title="TOP RESPONSE API: 获取登陆权限签名" alt="" coords="172,19387,393,19416"/>
+<area shape="rect" id="node685" href="$classSimbaNonsearchAdgroupplacesAddResponse.html" title="TOP RESPONSE API: 批量推广组添加定向推广投放位置，出价使用默认出价" alt="" coords="179,19439,387,19486"/>
+<area shape="rect" id="node687" href="$classSimbaNonsearchAdgroupplacesDeleteResponse.html" title="TOP RESPONSE API: 批量删除推广组定向推广投放位置" alt="" coords="179,19509,387,19555"/>
+<area shape="rect" id="node689" href="$classSimbaNonsearchAdgroupplacesGetResponse.html" title="TOP RESPONSE API: 根据指定推广计划下推广组列表获取相应推广组投放位置包括通投位置和单独出价位置" alt="" coords="179,19578,387,19625"/>
+<area shape="rect" id="node691" href="$classSimbaNonsearchAdgroupplacesUpdateResponse.html" title="TOP RESPONSE API: 批量修改推广组定向推广投放位置价格" alt="" coords="179,19647,387,19694"/>
+<area shape="rect" id="node693" href="$classSimbaNonsearchAlldemographicsGetResponse.html" title="TOP RESPONSE API: 获取定向投放人群维度列表" alt="" coords="173,19717,392,19763"/>
+<area shape="rect" id="node695" href="$classSimbaNonsearchAllplacesGetResponse.html" title="TOP RESPONSE API: 获取单独出价投放位置列表" alt="" coords="185,19786,380,19833"/>
+<area shape="rect" id="node697" href="$classSimbaNonsearchDemographicsGetResponse.html" title="TOP RESPONSE API: 获取给定campaign设置的投放人群维度列表" alt="" coords="180,19855,385,19902"/>
+<area shape="rect" id="node699" href="$classSimbaNonsearchDemographicsUpdateResponse.html" title="TOP RESPONSE API: 设置投放人群维度加价，如果给定的campagin没有设置给定的人群维度则添加给定的人群维度，如果给定的campaign已存在给定的人群维度则修改加价" alt="" coords="180,19925,385,19971"/>
+<area shape="rect" id="node701" href="$classSimbaRptAdgroupbaseGetResponse.html" title="TOP RESPONSE API: 推广组基础报表数据对象" alt="" coords="165,19995,400,20024"/>
+<area shape="rect" id="node703" href="$classSimbaRptAdgroupcreativebaseGetResponse.html" title="TOP RESPONSE API: 推广组下创意报表基础数据查询(汇总数据，不分类型)" alt="" coords="181,20047,384,20094"/>
+<area shape="rect" id="node705" href="$classSimbaRptAdgroupcreativeeffectGetResponse.html" title="TOP RESPONSE API: 推广组下的创意报表效果数据查询(汇总数据，不分类型)" alt="" coords="180,20117,385,20163"/>
+<area shape="rect" id="node707" href="$classSimbaRptAdgroupeffectGetResponse.html" title="TOP RESPONSE API: 推广组效果报表数据对象" alt="" coords="192,20186,373,20233"/>
+<area shape="rect" id="node709" href="$classSimbaRptAdgroupkeywordbaseGetResponse.html" title="TOP RESPONSE API: 推广组下的词基础报表数据查询(明细数据不分类型查询)" alt="" coords="180,20255,385,20302"/>
+<area shape="rect" id="node711" href="$classSimbaRptAdgroupkeywordeffectGetResponse.html" title="TOP RESPONSE API: 推广组下的词效果报表数据查询(明细数据不分类型查询)" alt="" coords="177,20325,388,20371"/>
+<area shape="rect" id="node713" href="$classSimbaRptAdgroupnonsearchbaseGetResponse.html" title="TOP RESPONSE API: 推广组下的定向推广基础数据查询" alt="" coords="175,20394,391,20441"/>
+<area shape="rect" id="node715" href="$classSimbaRptAdgroupnonsearcheffectGetResponse.html" title="TOP RESPONSE API: 推广组下的定向推广效果数据查询" alt="" coords="172,20463,393,20510"/>
+<area shape="rect" id="node717" href="$classSimbaRptCampadgroupbaseGetResponse.html" title="TOP RESPONSE API: 推广计划下的推广组报表基础数据查询(只有汇总数据，无分类类型)" alt="" coords="177,20533,388,20579"/>
+<area shape="rect" id="node719" href="$classSimbaRptCampadgroupeffectGetResponse.html" title="TOP RESPONSE API: 推广计划下的推广组报表效果数据查询(只有汇总数据，无分类类型)" alt="" coords="185,20602,380,20649"/>
+<area shape="rect" id="node721" href="$classSimbaRptCampaignbaseGetResponse.html" title="TOP RESPONSE API: 推广计划报表基础数据对象" alt="" coords="160,20672,405,20701"/>
+<area shape="rect" id="node723" href="$classSimbaRptCampaigneffectGetResponse.html" title="TOP RESPONSE API: 推广计划效果报表数据对象" alt="" coords="187,20725,379,20771"/>
+<area shape="rect" id="node725" href="$classSimbaRptCustbaseGetResponse.html" title="TOP RESPONSE API: 客户账户报表基础数据对象" alt="" coords="175,20795,391,20824"/>
+<area shape="rect" id="node727" href="$classSimbaRptCusteffectGetResponse.html" title="TOP RESPONSE API: 用户账户报表效果数据查询（只有汇总数据，无分类数据）" alt="" coords="172,20848,393,20877"/>
+<area shape="rect" id="node729" href="$classSimbaRptDemographicbaseGetResponse.html" title="TOP RESPONSE API: 推广计划下的人群基础数据查询" alt="" coords="180,20901,385,20947"/>
+<area shape="rect" id="node731" href="$classSimbaRptDemographiceffectGetResponse.html" title="TOP RESPONSE API: 推广计划下的人群维度效果数据查询" alt="" coords="188,20970,377,21017"/>
+<area shape="rect" id="node733" href="$classSimbaToolsItemsTopGetResponse.html" title="TOP RESPONSE API: 取得一个关键词的推广组排名列表" alt="" coords="169,21040,396,21069"/>
+<area shape="rect" id="node735" href="$classSkusCustomGetResponse.html" title="TOP RESPONSE API: 跟据卖家设定的Sku的外部id获取商品，如果一个outer_id对应多个Sku会返回所有符合条件的sku 这个Sku所属卖家从传入的session中获取，需要sess..." alt="" coords="193,21093,372,21123"/>
+<area shape="rect" id="node737" href="$classSkusQuantityUpdateResponse.html" title="TOP RESPONSE API: 提供按照全量/增量的方式批量修改SKU库存的功能" alt="" coords="181,21147,384,21176"/>
+<area shape="rect" id="node739" href="$classSpmeffectGetResponse.html" title="TOP RESPONSE API: 导购效果SPM报表查询，可查询某天某站点某频道某页面为淘宝带来的流量及成交情况（对于page和module最多返回10000条数据，请正确使用spm数据） 只能查询距..." alt="" coords="201,21200,364,21229"/>
+<area shape="rect" id="node741" href="$classSubuserDepartmentAddResponse.html" title="TOP RESPONSE API: 根据主账号ID以及部门名称、父部门ID创建新的部门信息（通过主账号登陆只能新建属于该主账号的部门信息）" alt="" coords="173,21253,392,21283"/>
+<area shape="rect" id="node743" href="$classSubuserDepartmentDeleteResponse.html" title="TOP RESPONSE API: 根据主账号Nick和部门ID删除该主账号下的该部门信息，如果待删除部门下有子账号则无法删除该部门（通过主账号登陆只能删除属于该主账号下的部门信息）" alt="" coords="165,21307,400,21336"/>
+<area shape="rect" id="node745" href="$classSubuserDepartmentsGetResponse.html" title="TOP RESPONSE API: 获取指定账户的所有部门列表，其实包括有每个部门的ID、父部门ID、部门名称（通过主账号登陆只能查询属于该主账号下的所有部门信息）。" alt="" coords="171,21360,395,21389"/>
+<area shape="rect" id="node747" href="$classSubuserDepartmentUpdateResponse.html" title="TOP RESPONSE API: 通过指定主账号ID和部门ID来修改该部门的名称或该部门的父部门ID。（通过主账号登陆只能修改属于该主账号的部门信息）" alt="" coords="164,21413,401,21443"/>
+<area shape="rect" id="node749" href="$classSubuserDutyAddResponse.html" title="TOP RESPONSE API: 通过主账号ID来增加指定账户的职务信息，职务信息中包括职务名称以及职务级别（通过主账号登陆只能新建属于该主账号的职务信息）" alt="" coords="193,21467,372,21496"/>
+<area shape="rect" id="node751" href="$classSubuserDutyDeleteResponse.html" title="TOP RESPONSE API: 通过主账号ID和职务ID来删除主账号下的该职务信息。使用此职务的员工中职务一栏将变为空（通过主账号登陆只能删除属于该主账号下的职务信息）" alt="" coords="185,21520,380,21549"/>
+<area shape="rect" id="node753" href="$classSubuserDutysGetResponse.html" title="TOP RESPONSE API: 通过主账号Nick获取该账户下的所有职务信息，职务信息中包括职务ID、职务名称以及职务等级（通过主账号登陆只能获取属于该主账号下的职务信息）" alt="" coords="191,21573,375,21603"/>
+<area shape="rect" id="node755" href="$classSubuserDutyUpdateResponse.html" title="TOP RESPONSE API: 通过主账号ID和职务ID来修改该职务信息中的职务名称及职务级别信息（通过主账号登陆只能修改属于该主账号下的职务信息）" alt="" coords="184,21627,381,21656"/>
+<area shape="rect" id="node757" href="$classSubuserEmployeeAddResponse.html" title="TOP RESPONSE API: 给指定子账号新增一个员工信息（通过主账号登陆只能新建属于该主账号的员工信息）" alt="" coords="177,21680,388,21709"/>
+<area shape="rect" id="node759" href="$classSubuserEmployeeUpdateResponse.html" title="TOP RESPONSE API: 修改指定账户子账号的员工信息（通过主账号登陆只能修改属于该主账号下的员工信息）" alt="" coords="168,21733,397,21763"/>
+<area shape="rect" id="node761" href="$classSubuserFullinfoGetResponse.html" title="TOP RESPONSE API: 获取指定账户子账号的详细信息，其中包括子账号的账号信息以及员工、部门、职务信息（只能通过主账号登陆并查询属于该主账号下的某个子账号详细信息）" alt="" coords="187,21787,379,21816"/>
+<area shape="rect" id="node763" href="$classSubuserInfoUpdateResponse.html" title="TOP RESPONSE API: 修改指定账户子账号的基本信息（通过主账号登陆只能修改属于该主账号的子账号基本信息）" alt="" coords="187,21840,379,21869"/>
+<area shape="rect" id="node765" href="$classSubusersGetResponse.html" title="TOP RESPONSE API: 获取主账号下的子账号简易账号信息集合。（只能通过主账号登陆并且查询该属于主账号的子账号信息）" alt="" coords="204,21893,361,21923"/>
+<area shape="rect" id="node767" href="$classSystemOauthTokenResponse.html" title="TOP RESPONSE API: OAuth2.0 授权的第二步，换取访问令牌。" alt="" coords="184,21947,381,21976"/>
+<area shape="rect" id="node769" href="$classTaobaokeCaturlGetResponse.html" title="TOP RESPONSE API: 淘宝客类目推广URL." alt="" coords="185,22000,380,22029"/>
+<area shape="rect" id="node771" href="$classTaobaokeItemsCouponGetResponse.html" title="TOP RESPONSE API: 查询淘客折扣商品。" alt="" coords="164,22053,401,22083"/>
+<area shape="rect" id="node773" href="$classTaobaokeItemsDetailGetResponse.html" title="TOP RESPONSE API: 查询淘宝客推广商品详细信息。" alt="" coords="169,22107,396,22136"/>
+<area shape="rect" id="node775" href="$classTaobaokeItemsGetResponse.html" title="TOP RESPONSE API: 查询淘宝客推广商品,不能通过设置cid=0来查询。注意：pid、nick为非必选参数，未来pid、nick入参将取消，程序会自动根据appkey对应的nick去查询p..." alt="" coords="187,22160,379,22189"/>
+<area shape="rect" id="node777" href="$classTaobaokeItemsRelateGetResponse.html" title="TOP RESPONSE API: 商品关联推荐。注意：pid、nick为非必选参数，未来pid、nick入参将取消，程序会自动根据appkey对应的nick去查询pid。pid、nick入参将兼容支持..." alt="" coords="168,22213,397,22243"/>
+<area shape="rect" id="node779" href="$classTaobaokeListurlGetResponse.html" title="TOP RESPONSE API: 淘宝客关键词搜索URL." alt="" coords="185,22267,380,22296"/>
+<area shape="rect" id="node781" href="$classTaobaokeReportGetResponse.html" title="TOP RESPONSE API: 淘客报表查询，报表接口只能获取到该appkey对应的创建者（淘宝账号）的推广数据。目前只支持获取订单成功的报表。订单创建、订单失效、退款订单请直接在www.alimama.com后台进行查询。" alt="" coords="184,22320,381,22349"/>
+<area shape="rect" id="node783" href="$classTaobaokeShopsGetResponse.html" title="TOP RESPONSE API: 提供对参加了淘客推广的店铺的搜索。" alt="" coords="185,22373,380,22403"/>
+<area shape="rect" id="node785" href="$classTaobaokeShopsRelateGetResponse.html" title="TOP RESPONSE API: 淘宝客店铺关联推荐。注意：pid、nick为非必选参数，未来pid、nick入参将取消，程序会自动根据appkey对应的nick去查询pid。pid、nick入参将兼..." alt="" coords="165,22427,400,22456"/>
+<area shape="rect" id="node787" href="$classTaobaokeWidgetItemsConvertResponse.html" title="TOP RESPONSE API: 淘客商品转换，该接口只支持js方式去调用，具体的调用方式参考文档【http://open.taobao.com/doc/detail.htm?id=101372】" alt="" coords="184,22479,381,22526"/>
+<area shape="rect" id="node789" href="$classTaobaokeWidgetShopsConvertResponse.html" title="TOP RESPONSE API: 淘客店铺转换，该接口只支持js方式去调用，具体的调用方式参考文档【http://open.taobao.com/doc/detail.htm?id=101372】" alt="" coords="181,22549,384,22595"/>
+<area shape="rect" id="node791" href="$classTaobaokeWidgetUrlConvertResponse.html" title="TOP RESPONSE API: 活动推广API可以把天猫、聚划算、淘宝旅行、淘宝游戏等平台的活动链接转换为淘宝客推广链接，该接口只支持js方式去调用，具体的调用方式参考文档【http://open..." alt="" coords="192,22618,373,22665"/>
+<area shape="rect" id="node793" href="$classTemsDiscountSearchResponse.html" title="TOP RESPONSE API: 获取天猫折扣商品的精选结果。在得到商品ID列表后，再调用 taobao.taobaoke.widget.items.convert 获取有佣金的淘客推广链接。..." alt="" coords="180,22688,385,22717"/>
+<area shape="rect" id="node795" href="$classTimeGetResponse.html" title="TOP RESPONSE API: 获取淘宝系统当前时间" alt="" coords="217,22741,348,22771"/>
+<area shape="rect" id="node797" href="$classTopatsDeliverySendResponse.html" title="TOP RESPONSE API: 提供异步批量物流发货功能。 &#160;异步API使用方法，请查看：异步API使用说明 " alt="" coords="184,22795,381,22824"/>
+<area shape="rect" id="node799" href="$classTopatsIncrementMessagesGetResponse.html" title="TOP RESPONSE API: 异步获取增量消息数据" alt="" coords="183,22847,383,22894"/>
+<area shape="rect" id="node801" href="$classTopatsItemcatsGetResponse.html" title="TOP RESPONSE API: 全量获取后台类目、类目属性、类目属性值数据 &#160;异步API使用方法，请查看：异步API使用说明 &#160;1. 每天8点左右会产生今天的全量数据，在8点之前提交获取全量类目数据..." alt="" coords="187,22917,379,22947"/>
+<area shape="rect" id="node803" href="$classTopatsItemsAllGetResponse.html" title="TOP RESPONSE API: 提供异步获取三个月内的所有（出售中和仓库中）商品详情信息接口。" alt="" coords="188,22971,377,23000"/>
+<area shape="rect" id="node805" href="$classTopatsRefundsReceiveGetResponse.html" title="TOP RESPONSE API: 提供异步获取三个月内买家收到的退款详情信息接口。" alt="" coords="164,23024,401,23053"/>
+<area shape="rect" id="node807" href="$classTopatsResultGetResponse.html" title="TOP RESPONSE API: 获取异步任务结果。 &#160;异步API使用方法，请查看：异步API使用说明 &#160;1. 只能获取AppKey自身创建的异步任务结果 &#160;2. 如果任务状态为done，则返回任务结果（如taobao.topats.trades.fullinfo.get）或下载地址（如taobao.topats.trades.sold.get） &#160;3. 任务结果下载地址只能使用一次，需要重复下载可重新调用此接口获取下载地址 &#160;4. 任务结果中的check_code字段为待下载文件的md5 sum，可通过此校验码验证文件下载的完整性" alt="" coords="193,23077,372,23107"/>
+<area shape="rect" id="node809" href="$classTopatsSimbaCampkeywordbaseGetResponse.html" title="TOP RESPONSE API: 直通车推广计划下的词报表基础数据查询 &#160;异步API使用方法，请查看：异步API使用说明 " alt="" coords="177,23130,388,23177"/>
+<area shape="rect" id="node811" href="$classTopatsSimbaCampkeywordeffectGetResponse.html" title="TOP RESPONSE API: 推广计划下的词报表效果数据查询 &#160;异步API使用方法，请查看：异步API使用说明 " alt="" coords="175,23199,391,23246"/>
+<area shape="rect" id="node813" href="$classTopatsTaskDeleteResponse.html" title="TOP RESPONSE API: 可用于取消已经创建的ATS任务。 条件限制：1)一次只可以取消一个任务 2）只能取消自己创建的任务" alt="" coords="189,23269,376,23299"/>
+<area shape="rect" id="node815" href="$classTopatsTasksGetResponse.html" title="TOP RESPONSE API: 用于获取指定时间段内的定时API任务信息。 条件：1）必须是本APPKEY创建的任务。 2)起始时间不能早于3天前的当前时刻。 3）结束时间不能晚于一天以后的当前时刻..." alt="" coords="193,23323,372,23352"/>
+<area shape="rect" id="node817" href="$classTopatsTradesFullinfoGetResponse.html" title="TOP RESPONSE API: 提供异步批量获取订单详情功能 &#160;异步API使用方法，请查看：异步API使用说明 " alt="" coords="171,23376,395,23405"/>
+<area shape="rect" id="node819" href="$classTopatsTradesSoldGetResponse.html" title="TOP RESPONSE API: 提供异步下载三个月已卖出的在线订单信息接口。 &#160;异步API使用方法，请查看：异步API使用说明 " alt="" coords="179,23429,387,23459"/>
+<area shape="rect" id="node821" href="$classTopatsUserAccountreportGetResponse.html" title="TOP RESPONSE API: 查询用户支付宝账务明细接口。 &#160;异步API使用方法，请查看：异步API使用说明 " alt="" coords="187,23482,379,23529"/>
+<area shape="rect" id="node823" href="$classTradeAmountGetResponse.html" title="TOP RESPONSE API: 卖家查询该笔交易订单的资金帐务相关的数据；" alt="" coords="193,23552,372,23581"/>
+<area shape="rect" id="node825" href="$classTradeCloseResponse.html" title="TOP RESPONSE API: 关闭一笔订单，可以是主订单或子订单。当订单从创建到关闭时间小于10s的时候，会报“CLOSE_TRADE_TOO_FAST”错误。" alt="" coords="209,23605,356,23635"/>
+<area shape="rect" id="node827" href="$classTradeConfirmfeeGetResponse.html" title="TOP RESPONSE API: 获取交易确认收货费用 可以获取主订单或子订单的确认收货费用" alt="" coords="184,23659,381,23688"/>
+<area shape="rect" id="node829" href="$classTradeFullinfoGetResponse.html" title="TOP RESPONSE API: 获取单笔交易的详细信息 &#160;1. 只有在交易成功的状态下才能取到交易佣金，其它状态下取到的都是零或空值 &#160;2. 只有单笔订单的情况下Trade数据结构中才包含商品相关的..." alt="" coords="195,23712,371,23741"/>
+<area shape="rect" id="node831" href="$classTradeGetResponse.html" title="TOP RESPONSE API: 获取单笔交易的部分信息" alt="" coords="216,23765,349,23795"/>
+<area shape="rect" id="node833" href="$classTradeMemoAddResponse.html" title="TOP RESPONSE API: 根据登录用户的身份（买家或卖家），自动添加相应的交易备注,不能重复调用些接口添加备注，需要更新备注请用taobao.trade.memo.update." alt="" coords="196,23819,369,23848"/>
+<area shape="rect" id="node835" href="$classTradeMemoUpdateResponse.html" title="TOP RESPONSE API: 需要商家或以上权限才可调用此接口，可重复调用本接口更新交易备注，本接口同时具有添加备注的功能" alt="" coords="187,23872,379,23901"/>
+<area shape="rect" id="node837" href="$classTradeOrderskuUpdateResponse.html" title="TOP RESPONSE API: 只能更新发货前子订单的销售属性 只能更新价格相同的销售属性。对于拍下减库存的交易会同步更新销售属性的库存量。对于旺店的交易，要使用商品扩展信息中的SKU价格来比较。 ..." alt="" coords="179,23925,387,23955"/>
+<area shape="rect" id="node839" href="$classTradePostageUpdateResponse.html" title="TOP RESPONSE API: 修改订单邮费接口，通过传入订单编号和邮费价格，修改订单的邮费，返回修改时间modified,邮费post_fee,总费用total_fee。" alt="" coords="181,23979,384,24008"/>
+<area shape="rect" id="node841" href="$classTraderateAddResponse.html" title="TOP RESPONSE API: 新增单个评价(&lt;font color=&quot;red&quot;&gt;注：在评价之前需要对订单成功的时间进行判定（end_time）,如果超过15天，不能再通过该接口进行评价&lt;/font..." alt="" coords="204,24032,361,24061"/>
+<area shape="rect" id="node843" href="$classTraderateExplainAddResponse.html" title="TOP RESPONSE API: 商城卖家给评价做出解释（买家追加评论后、评价超过30天的，都不能再做评价解释）" alt="" coords="181,24085,384,24115"/>
+<area shape="rect" id="node845" href="$classTraderateListAddResponse.html" title="TOP RESPONSE API: 针对父子订单新增批量评价(&lt;font color=&quot;red&quot;&gt;注：在评价之前需要对订单成功的时间进行判定（end_time）,如果超过15天，不用再通过该接口进行评价..." alt="" coords="193,24139,372,24168"/>
+<area shape="rect" id="node847" href="$classTraderatesGetResponse.html" title="TOP RESPONSE API: 搜索评价信息，只能获取距今180天内的评价记录(只支持查询卖家给出或得到的评价)。" alt="" coords="201,24192,364,24221"/>
+<area shape="rect" id="node849" href="$classTradeReceivetimeDelayResponse.html" title="TOP RESPONSE API: 延长交易收货时间" alt="" coords="172,24245,393,24275"/>
+<area shape="rect" id="node851" href="$classTradeShippingaddressUpdateResponse.html" title="TOP RESPONSE API: 只能更新一笔交易里面的买家收货地址 只能更新发货前（即买家已付款，等待卖家发货状态）的交易的买家收货地址 更新后的发货地址可以通过taobao.trade.fullinfo.get查到 参数中所说的字节为GBK编码的（英文和数字占1字节，中文占2字节）" alt="" coords="187,24298,379,24345"/>
+<area shape="rect" id="node853" href="$classTradeSnapshotGetResponse.html" title="TOP RESPONSE API: 交易快照查询 目前只支持类型为“旺店标准版(600)”或“旺店入门版(610)”的交易 对于“旺店标准版”类型的交易，返回的snapshot字段为交易快照编号 对于“..." alt="" coords="188,24368,377,24397"/>
+<area shape="rect" id="node855" href="$classTradesSoldGetResponse.html" title="TOP RESPONSE API: 搜索当前会话用户作为卖家已卖出的交易数据（只能获取到三个月以内的交易信息） &#160;1. 返回的数据结果是以订单的创建时间倒序排列的。 &#160;2..." alt="" coords="199,24421,367,24451"/>
+<area shape="rect" id="node857" href="$classTradesSoldIncrementGetResponse.html" title="TOP RESPONSE API: 搜索当前会话用户作为卖家已卖出的增量交易数据（只能获取到三个月以内的交易信息） &#160;1. 一次请求只能查询时间跨度为一天的增量交易记录，即end_modified &#45; ..." alt="" coords="169,24475,396,24504"/>
+<area shape="rect" id="node859" href="$classTradesSoldIncrementvGetResponse.html" title="TOP RESPONSE API: 搜索当前会话用户作为卖家已卖出的增量交易数据（只能获取到三个月以内的交易信息） &#160;1. 一次请求只能查询时间跨度为一天的增量交易记录，即end_create &#45; st..." alt="" coords="167,24528,399,24557"/>
+<area shape="rect" id="node861" href="$classTravelItemsareaGetResponse.html" title="TOP RESPONSE API: 此接口用于获取卖家发布旅游度假线路商品时目的地地区级联信息。" alt="" coords="185,24581,380,24611"/>
+<area shape="rect" id="node863" href="$classTripJipiaoAgentItinerarySendResponse.html" title="TOP RESPONSE API: 国内机票代理商行程单信息回填" alt="" coords="204,24634,361,24681"/>
+<area shape="rect" id="node865" href="$classTripJipiaoAgentOrderConfirmResponse.html" title="TOP RESPONSE API: 国内机票代理商确认订单接口" alt="" coords="188,24703,377,24750"/>
+<area shape="rect" id="node867" href="$classTripJipiaoAgentOrderFailResponse.html" title="TOP RESPONSE API: 国内机票代理商失败订单接口" alt="" coords="200,24773,365,24819"/>
+<area shape="rect" id="node869" href="$classTripJipiaoAgentOrderFindResponse.html" title="TOP RESPONSE API: 根据淘宝机票政策id搜索订单" alt="" coords="199,24842,367,24889"/>
+<area shape="rect" id="node871" href="$classTripJipiaoAgentOrderGetResponse.html" title="TOP RESPONSE API: 根据淘宝系统订单号获取订单详情信息" alt="" coords="171,24912,395,24941"/>
+<area shape="rect" id="node873" href="$classTripJipiaoAgentOrderHkResponse.html" title="TOP RESPONSE API: 国内机票代理商手工hk订单（未付款前，手工填写pnr）" alt="" coords="173,24965,392,24995"/>
+<area shape="rect" id="node875" href="$classTripJipiaoAgentOrderSearchResponse.html" title="TOP RESPONSE API: 根据条件查询淘宝订单id列表" alt="" coords="191,25018,375,25065"/>
+<area shape="rect" id="node877" href="$classTripJipiaoAgentOrderSpecialConfirmResponse.html" title="TOP RESPONSE API: 国内机票订单接口，确认特殊产品能否支付" alt="" coords="189,25087,376,25134"/>
+<area shape="rect" id="node879" href="$classTripJipiaoAgentOrderSuccessResponse.html" title="TOP RESPONSE API: 淘宝机票代理商成功/解冻订单" alt="" coords="185,25157,380,25203"/>
+<area shape="rect" id="node881" href="$classUdpItemGetResponse.html" title="TOP RESPONSE API: 商品指标查询" alt="" coords="207,25227,359,25256"/>
+<area shape="rect" id="node883" href="$classUdpJuhuasuanGetResponse.html" title="TOP RESPONSE API: 聚划算指标查询" alt="" coords="188,25280,377,25309"/>
+<area shape="rect" id="node885" href="$classUdpShopGetResponse.html" title="TOP RESPONSE API: 店铺指标查询" alt="" coords="205,25333,360,25363"/>
+<area shape="rect" id="node887" href="$classUmpActivitiesGetResponse.html" title="TOP RESPONSE API: 查询活动列表" alt="" coords="191,25387,375,25416"/>
+<area shape="rect" id="node889" href="$classUmpActivitiesListGetResponse.html" title="TOP RESPONSE API: 按照营销活动id的列表ids，查询对应的营销活动列表。" alt="" coords="180,25440,385,25469"/>
+<area shape="rect" id="node891" href="$classUmpActivityAddResponse.html" title="TOP RESPONSE API: 新增优惠活动。设置优惠活动的基本信息，比如活动时间，活动针对的对象（可以是满足某些条件的买家）" alt="" coords="195,25493,371,25523"/>
+<area shape="rect" id="node893" href="$classUmpActivityDeleteResponse.html" title="TOP RESPONSE API: 删除营销活动。对应的活动详情等将会被全部删除。" alt="" coords="188,25547,377,25576"/>
+<area shape="rect" id="node895" href="$classUmpActivityGetResponse.html" title="TOP RESPONSE API: 查询营销活动" alt="" coords="196,25600,369,25629"/>
+<area shape="rect" id="node897" href="$classUmpActivityUpdateResponse.html" title="TOP RESPONSE API: 修改营销活动" alt="" coords="185,25653,380,25683"/>
+<area shape="rect" id="node899" href="$classUmpDetailAddResponse.html" title="TOP RESPONSE API: 增加活动详情。活动详情里面包括活动的范围（店铺，商品），活动的参数（比如具体的折扣），参与类型（全部，部分，部分不参加）等信息。当参与类型为部分或部分不参加的时候需要..." alt="" coords="200,25707,365,25736"/>
+<area shape="rect" id="node901" href="$classUmpDetailDeleteResponse.html" title="TOP RESPONSE API: 删除活动详情" alt="" coords="192,25760,373,25789"/>
+<area shape="rect" id="node903" href="$classUmpDetailGetResponse.html" title="TOP RESPONSE API: 查询活动详情" alt="" coords="201,25813,364,25843"/>
+<area shape="rect" id="node905" href="$classUmpDetailListAddResponse.html" title="TOP RESPONSE API: 批量添加营销活动。替代单条添加营销详情的的API。此接口适用针对某个营销活动的多档设置，会按顺序插入detail。若在整个事务过程中出现断点，会将已插入完成的deta..." alt="" coords="189,25867,376,25896"/>
+<area shape="rect" id="node907" href="$classUmpDetailsGetResponse.html" title="TOP RESPONSE API: 分页查询优惠详情列表" alt="" coords="197,25920,368,25949"/>
+<area shape="rect" id="node909" href="$classUmpDetailUpdateResponse.html" title="TOP RESPONSE API: 更新活动详情" alt="" coords="191,25973,375,26003"/>
+<area shape="rect" id="node911" href="$classUmpMbbGetbycodeResponse.html" title="TOP RESPONSE API: 根据营销积木块代码获取积木块。接口返回该代码最新版本的积木块。如果要查询某个非最新版本的积木块，可以使用积木块id查询接口。" alt="" coords="184,26027,381,26056"/>
+<area shape="rect" id="node913" href="$classUmpMbbGetbyidResponse.html" title="TOP RESPONSE API: 根据积木块id获取营销积木块。" alt="" coords="193,26080,372,26109"/>
+<area shape="rect" id="node915" href="$classUmpMbbsGetResponse.html" title="TOP RESPONSE API: 获取营销积木块列表，可以根据类型获取，也可以将该字段设为空，获取所有的" alt="" coords="201,26133,364,26163"/>
+<area shape="rect" id="node917" href="$classUmpMbbsListGetResponse.html" title="TOP RESPONSE API: 通过营销积木id列表来获取营销积木块列表。" alt="" coords="192,26187,373,26216"/>
+<area shape="rect" id="node919" href="$classUmpPromotionGetResponse.html" title="TOP RESPONSE API: 商品优惠详情查询，可查询商品设置的详细优惠。包括限时折扣，满就送等官方优惠以及第三方优惠。此接口有调用频率限制请酌情使用，建议使用淘客API获取商品折扣价格。" alt="" coords="188,26240,377,26269"/>
+<area shape="rect" id="node921" href="$classUmpRangeAddResponse.html" title="TOP RESPONSE API: 指定某项活动中，某个商家的某些类型物品（指定商品，指定类目或者别的）参加或者不参加活动。当活动详情的参与类型为部分或者部分不参加的时候，需要指定具体哪部分参加或者不参..." alt="" coords="197,26293,368,26323"/>
+<area shape="rect" id="node923" href="$classUmpRangeDeleteResponse.html" title="TOP RESPONSE API: 去指先前指定在某项活动中，某些类型的物品参加或者不参加活动的设置" alt="" coords="191,26347,375,26376"/>
+<area shape="rect" id="node925" href="$classUmpRangeGetResponse.html" title="TOP RESPONSE API: 查询某个卖家所有参加或者不参加某项活动的物品" alt="" coords="199,26400,367,26429"/>
+<area shape="rect" id="node927" href="$classUmpToolAddResponse.html" title="TOP RESPONSE API: 新增优惠工具。通过ump sdk来完成将积木块拼装成为工具的操作，再使用本接口上传优惠工具。" alt="" coords="204,26453,361,26483"/>
+<area shape="rect" id="node929" href="$classUmpToolDeleteResponse.html" title="TOP RESPONSE API: 删除营销工具。当工具正在被使用的时候，是不能被删除的。" alt="" coords="197,26507,368,26536"/>
+<area shape="rect" id="node931" href="$classUmpToolGetResponse.html" title="TOP RESPONSE API: 根据工具id获取一个工具对象" alt="" coords="205,26560,360,26589"/>
+<area shape="rect" id="node933" href="$classUmpToolsGetResponse.html" title="TOP RESPONSE API: 查询工具列表" alt="" coords="201,26613,364,26643"/>
+<area shape="rect" id="node935" href="$classUmpToolUpdateResponse.html" title="TOP RESPONSE API: 修改工具" alt="" coords="195,26667,371,26696"/>
+<area shape="rect" id="node937" href="$classUserAccountFreezeGetResponse.html" title="TOP RESPONSE API: 查询支付宝账户冻结类型的冻结金额。" alt="" coords="173,26720,392,26749"/>
+<area shape="rect" id="node939" href="$classUserAccountGetResponse.html" title="TOP RESPONSE API: 查询支付宝账户余额" alt="" coords="193,26773,372,26803"/>
+<area shape="rect" id="node941" href="$classUserBuyerGetResponse.html" title="TOP RESPONSE API: 查询买家信息API." alt="" coords="201,26827,364,26856"/>
+<area shape="rect" id="node943" href="$classUserContractGetResponse.html" title="TOP RESPONSE API: 获取支付宝用户订购信息。在不确认用户对应用是否订购的时候，可以调用此API查询。" alt="" coords="193,26880,372,26909"/>
+<area shape="rect" id="node945" href="$classUserGetResponse.html" title="TOP RESPONSE API: 查询支付宝用户信息" alt="" coords="217,26933,348,26963"/>
+<area shape="rect" id="node947" href="$classUserrecommendItemsGetResponse.html" title="TOP RESPONSE API: 根据用户信息推荐相关联的宝贝集。仅支持widget入口调用，需要同时校验淘宝cookie登陆情况，以及cookie和session授权的一致性。调用入口为/widge..." alt="" coords="168,26987,397,27016"/>
+<area shape="rect" id="node949" href="$classUserSellerGetResponse.html" title="TOP RESPONSE API: 查询卖家用户信息（只能查询有店铺的用户）" alt="" coords="201,27040,364,27069"/>
+<area shape="rect" id="node951" href="$classUsersGetResponse.html" title="TOP RESPONSE API: 传入多个淘宝会员帐号返回多个用户公开信息" alt="" coords="215,27093,351,27123"/>
+<area shape="rect" id="node953" href="$classUserTradeSearchResponse.html" title="TOP RESPONSE API: 查询支付宝账户交易记录" alt="" coords="192,27147,373,27176"/>
+<area shape="rect" id="node955" href="$classVasOrderSearchResponse.html" title="TOP RESPONSE API: 用于ISV查询自己名下的应用及收费项目的订单记录（已付款订单）。 建议用于查询前一日的历史记录。" alt="" coords="195,27200,371,27229"/>
+<area shape="rect" id="node957" href="$classVasSubscribeGetResponse.html" title="TOP RESPONSE API: 用于ISV根据登录进来的淘宝会员名查询该为该会员开通哪些收费项目，ISV只能查询自己名下的应用及收费项目的订购情况" alt="" coords="192,27253,373,27283"/>
+<area shape="rect" id="node959" href="$classVasSubscSearchResponse.html" title="TOP RESPONSE API: 用于ISV查询自己名下的应用及收费项目的订购记录" alt="" coords="192,27307,373,27336"/>
+<area shape="rect" id="node961" href="$classWangwangEserviceAvgwaittimeGetResponse.html" title="TOP RESPONSE API: 根据客服ID和日期，获取该客服&quot;当日接待的所有客户的平均等待时长&quot;。 &#160;&#160;备注： &#160;&#160;1、如果是操作者ID=被查者ID，返回被查者ID的&quot;当日接待的所有客户的平均等待..." alt="" coords="177,27359,388,27406"/>
+<area shape="rect" id="node963" href="$classWangwangEserviceChatpeersGetResponse.html" title="TOP RESPONSE API: 获取聊天对象列表，只能获取最近1个月内的数据且查询时间段&lt;=7天,只支持xml返回 。" alt="" coords="184,27429,381,27475"/>
+<area shape="rect" id="node965" href="$classWangwangEserviceEvalsGetResponse.html" title="TOP RESPONSE API: 根据用户id查询用户对应的评价详细情况， 主账号id可以查询店铺内子账号的评价 组管理员可以查询组内账号的评价 非管理员的子账号可以查自己的评价" alt="" coords="187,27498,379,27545"/>
+<area shape="rect" id="node967" href="$classWangwangEserviceEvaluationGetResponse.html" title="TOP RESPONSE API: 根据操作者ID，返回被查者ID指定日期内每个帐号每日的&quot;客服评价统计&quot;." alt="" coords="184,27567,381,27614"/>
+<area shape="rect" id="node969" href="$classWangwangEserviceGroupmemberGetResponse.html" title="TOP RESPONSE API: 用某个组管理员账号查询，返回该组组名、和该组所有组成员ID（E客服的分流设置）。" alt="" coords="173,27637,392,27683"/>
+<area shape="rect" id="node971" href="$classWangwangEserviceLoginlogsGetResponse.html" title="TOP RESPONSE API: 通过用户id查询用户自己或者子账户的登录日志： 主账号可以查询自己和店铺子账户的登录日志（查询时需要输入子账号，多个用，隔开） 组管理员可以查询自己和组内子账号的登录..." alt="" coords="187,27706,379,27753"/>
+<area shape="rect" id="node973" href="$classWangwangEserviceNoreplynumGetResponse.html" title="TOP RESPONSE API: 根据操作者ID，返回被查者ID指定日期内每个帐号每日的&quot;未回复情况&quot;." alt="" coords="179,27775,387,27822"/>
+<area shape="rect" id="node975" href="$classWangwangEserviceOnlinetimeGetResponse.html" title="TOP RESPONSE API: 描述：根据客服ID和日期，获取该客服&quot;当日在线时长&quot;。" alt="" coords="183,27845,383,27891"/>
+<area shape="rect" id="node977" href="$classWangwangEserviceReceivenumGetResponse.html" title="TOP RESPONSE API: 根据操作者ID，返回被查者ID指定时间段内每个帐号的&quot;已接待人数&quot; &#160;备注： &#160;1、如果是操作者ID=被查者ID，返回被查者ID的&quot;已接待人数&quot;。 &#160;2、如果操作者是..." alt="" coords="177,27914,388,27961"/>
+<area shape="rect" id="node979" href="$classWangwangEserviceStreamweigthsGetResponse.html" title="TOP RESPONSE API: 获取当前登录用户自己的店铺内的分流权重设置，只支持xml 返回。" alt="" coords="171,27983,395,28030"/>
+<area shape="rect" id="node981" href="$classWidgetAppapiruleCheckResponse.html" title="TOP RESPONSE API: app指定api名称获取此api的http调用方法、app是否有请求权限、是否需要授权等信息。仅支持widget入口调用。调用入口为/widget。签名方法简化为Hm..." alt="" coords="172,28053,393,28083"/>
+<area shape="rect" id="node983" href="$classWidgetItempanelGetResponse.html" title="TOP RESPONSE API: 根据商品id获取sku选择面板需要的信息。session必传且用户当前浏览器必需已经在淘宝登陆，具体判断方法可以调用taobao.widget.loginstatus.get进行判断。会根据session生成购买链接。仅支持widget入口调用。调用入口为/widget。签名方法简化为Hmac&#45;md5,hmac(secret+‘app_key&#39; ＋app_key +&#39;timestamp&#39; + timestamp+secret, secret)。timestamp为60分钟内有效" alt="" coords="183,28107,383,28136"/>
+<area shape="rect" id="node985" href="$classWidgetLoginstatusGetResponse.html" title="TOP RESPONSE API: 获取当前浏览器用户在淘宝登陆状态。如果传了session并且此用户已在淘宝登陆，返回nick和userId。仅支持widget入口调用。调用入口为/widget。签名..." alt="" coords="177,28160,388,28189"/>
+<area shape="rect" id="node987" href="$classWlbInventoryDetailGetResponse.html" title="TOP RESPONSE API: 查询库存详情，通过商品ID获取发送请求的卖家的库存详情" alt="" coords="176,28213,389,28243"/>
+<area shape="rect" id="node989" href="$classWlbInventorylogQueryResponse.html" title="TOP RESPONSE API: 通过商品ID等几个条件来分页查询库存变更记录" alt="" coords="177,28267,388,28296"/>
+<area shape="rect" id="node991" href="$classWlbInventorySyncResponse.html" title="TOP RESPONSE API: 将库存同步至IC." alt="" coords="189,28320,376,28349"/>
+<area shape="rect" id="node993" href="$classWlbItemAddResponse.html" title="TOP RESPONSE API: 添加物流宝商品，支持物流宝子商品和属性添加" alt="" coords="207,28373,359,28403"/>
+<area shape="rect" id="node995" href="$classWlbItemAuthorizationAddResponse.html" title="TOP RESPONSE API: 添加商品的授权规则：添加规则之后代销商可以增加商品代销关系" alt="" coords="168,28427,397,28456"/>
+<area shape="rect" id="node997" href="$classWlbItemAuthorizationDeleteResponse.html" title="TOP RESPONSE API: 删除授权关系.若有建立代销关系，会将其代销关系冻结即将状态置为失效(代销关系)。" alt="" coords="191,28479,375,28526"/>
+<area shape="rect" id="node999" href="$classWlbItemAuthorizationQueryResponse.html" title="TOP RESPONSE API: 查询授权关系,可由货主或被授权人查询。" alt="" coords="192,28549,373,28595"/>
+<area shape="rect" id="node1001" href="$classWlbItemBatchQueryResponse.html" title="TOP RESPONSE API: 根据用户id，item id list和store code来查询商品库存信息和批次信息" alt="" coords="184,28619,381,28648"/>
+<area shape="rect" id="node1003" href="$classWlbItemCombinationCreateResponse.html" title="TOP RESPONSE API: 创建商品组合关系" alt="" coords="192,28671,373,28718"/>
+<area shape="rect" id="node1005" href="$classWlbItemCombinationDeleteResponse.html" title="TOP RESPONSE API: 删除商品组合关系" alt="" coords="192,28741,373,28787"/>
+<area shape="rect" id="node1007" href="$classWlbItemCombinationGetResponse.html" title="TOP RESPONSE API: 根据商品id查询商品组合关系" alt="" coords="171,28811,395,28840"/>
+<area shape="rect" id="node1009" href="$classWlbItemConsignmentCreateResponse.html" title="TOP RESPONSE API: 代销商创建商品代销关系：货主创建授权规则，获得授权规则后方可创建商品代销关系。" alt="" coords="189,28863,376,28910"/>
+<area shape="rect" id="node1011" href="$classWlbItemConsignmentDeleteResponse.html" title="TOP RESPONSE API: 删除商品的代销关系" alt="" coords="189,28933,376,28979"/>
+<area shape="rect" id="node1013" href="$classWlbItemConsignmentPageGetResponse.html" title="TOP RESPONSE API: 代销商角度分页查询物流宝商品的代销关系" alt="" coords="184,29002,381,29049"/>
+<area shape="rect" id="node1015" href="$classWlbItemDeleteResponse.html" title="TOP RESPONSE API: 通过ItemId,UserId来删除单个商品" alt="" coords="199,29072,367,29101"/>
+<area shape="rect" id="node1017" href="$classWlbItemGetResponse.html" title="TOP RESPONSE API: 根据商品ID获取商品信息,除了获取商品信息外还可获取商品属性信息和库存信息。" alt="" coords="208,29125,357,29155"/>
+<area shape="rect" id="node1019" href="$classWlbItemMapGetByExtentityResponse.html" title="TOP RESPONSE API: 根据外部实体类型和实体id查询映射的物流宝商品id." alt="" coords="191,29178,375,29225"/>
+<area shape="rect" id="node1021" href="$classWlbItemMapGetResponse.html" title="TOP RESPONSE API: 根据物流宝商品ID查询商品映射关系" alt="" coords="195,29248,371,29277"/>
+<area shape="rect" id="node1023" href="$classWlbItemQueryResponse.html" title="TOP RESPONSE API: 根据状态、卖家、SKU等信息查询商品列表" alt="" coords="200,29301,365,29331"/>
+<area shape="rect" id="node1025" href="$classWlbItemSynchronizeDeleteResponse.html" title="TOP RESPONSE API: 通过物流宝商品ID和IC商品ID删除映射关系。" alt="" coords="192,29354,373,29401"/>
+<area shape="rect" id="node1027" href="$classWlbItemSynchronizeResponse.html" title="TOP RESPONSE API: 同步仓储商品与前台商品，建立仓储商品与前台商品的关系,并更新IC中的信息到仓储商品Item中" alt="" coords="181,29424,384,29453"/>
+<area shape="rect" id="node1029" href="$classWlbItemUpdateResponse.html" title="TOP RESPONSE API: 修改物流宝商品信息" alt="" coords="197,29477,368,29507"/>
+<area shape="rect" id="node1031" href="$classWlbNotifyMessageConfirmResponse.html" title="TOP RESPONSE API: 确认物流宝可执行消息" alt="" coords="164,29531,401,29560"/>
+<area shape="rect" id="node1033" href="$classWlbNotifyMessagePageGetResponse.html" title="TOP RESPONSE API: 物流宝提供的消息通知查询接口，消息内容包括;出入库单不一致消息，取消订单成功消息，盘点单消息" alt="" coords="161,29584,404,29613"/>
+<area shape="rect" id="node1035" href="$classWlbOrderCancelResponse.html" title="TOP RESPONSE API: 取消物流宝订单" alt="" coords="195,29637,371,29667"/>
+<area shape="rect" id="node1037" href="$classWlbOrderConsignResponse.html" title="TOP RESPONSE API: 如果erp导入淘宝交易订单到物流宝，当物流宝订单已发货的时候，erp需要调用该接口来通知物流订单和淘宝交易订单已发货" alt="" coords="191,29691,375,29720"/>
+<area shape="rect" id="node1039" href="$classWlbOrderCreateResponse.html" title="TOP RESPONSE API: 创建物流宝订单，由外部ISV或者ERP，Elink，淘宝交易产生" alt="" coords="196,29744,369,29773"/>
+<area shape="rect" id="node1041" href="$classWlbOrderitemPageGetResponse.html" title="TOP RESPONSE API: 分页查询物流宝订单商品详情" alt="" coords="177,29797,388,29827"/>
+<area shape="rect" id="node1043" href="$classWlbOrderPageGetResponse.html" title="TOP RESPONSE API: 分页查询物流宝订单" alt="" coords="189,29851,376,29880"/>
+<area shape="rect" id="node1045" href="$classWlbOrderScheduleRuleAddResponse.html" title="TOP RESPONSE API: 为订单的自动流转设置订单调度规则。规则设定之后，可以根据发货地区，精确路由订单至指定仓库处理。" alt="" coords="163,29904,403,29933"/>
+<area shape="rect" id="node1047" href="$classWlbOrderscheduleruleDeleteResponse.html" title="TOP RESPONSE API: 删除单个订单调度规则" alt="" coords="189,29957,376,30003"/>
+<area shape="rect" id="node1049" href="$classWlbOrderscheduleruleQueryResponse.html" title="TOP RESPONSE API: 查询某个卖家的所有订单调度规则，提供分页查询。" alt="" coords="191,30026,375,30073"/>
+<area shape="rect" id="node1051" href="$classWlbOrderScheduleRuleUpdateResponse.html" title="TOP RESPONSE API: 修改物流宝订单调度规则" alt="" coords="183,30095,383,30142"/>
+<area shape="rect" id="node1053" href="$classWlbOrderstatusGetResponse.html" title="TOP RESPONSE API: 根据物流宝订单号查询物流宝订单至目前为止的流转状态列表" alt="" coords="187,30165,379,30195"/>
+<area shape="rect" id="node1055" href="$classWlbOutInventoryChangeNotifyResponse.html" title="TOP RESPONSE API: 拥有自有仓的企业物流用户通过该接口把自有仓的库存通知到物流宝，由物流宝维护该库存，控制前台显示库存的准确性。" alt="" coords="183,30218,383,30265"/>
+<area shape="rect" id="node1057" href="$classWlbReplenishStatisticsResponse.html" title="TOP RESPONSE API: 查询BI的统计的补货统计数据" alt="" coords="175,30288,391,30317"/>
+<area shape="rect" id="node1059" href="$classWlbSubscriptionQueryResponse.html" title="TOP RESPONSE API: 查询商家定购的所有服务,可通过入参状态来筛选" alt="" coords="177,30341,388,30371"/>
+<area shape="rect" id="node1061" href="$classWlbTmsorderQueryResponse.html" title="TOP RESPONSE API: 通过物流订单编号分页查询物流信息" alt="" coords="185,30395,380,30424"/>
+<area shape="rect" id="node1063" href="$classWlbTradeorderGetResponse.html" title="TOP RESPONSE API: 根据交易类型和交易id查询物流宝订单详情" alt="" coords="189,30448,376,30477"/>
+<area shape="rect" id="node1065" href="$classWlbWlborderGetResponse.html" title="TOP RESPONSE API: 根据物流宝订单编号查询物流宝订单概要信息" alt="" coords="195,30501,371,30531"/>
+</map>

@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['marketingpromotionkfcrequest',['MarketingPromotionKfcRequest',['../classMarketingPromotionKfcRequest.html',1,'']]],
+  ['marketingpromotionkfcresponse',['MarketingPromotionKfcResponse',['../classMarketingPromotionKfcResponse.html',1,'']]],
+  ['marketingpromotionsgetrequest',['MarketingPromotionsGetRequest',['../classMarketingPromotionsGetRequest.html',1,'']]],
+  ['marketingpromotionsgetresponse',['MarketingPromotionsGetResponse',['../classMarketingPromotionsGetResponse.html',1,'']]],
+  ['marketingtagsgetrequest',['MarketingTagsGetRequest',['../classMarketingTagsGetRequest.html',1,'']]],
+  ['marketingtagsgetresponse',['MarketingTagsGetResponse',['../classMarketingTagsGetResponse.html',1,'']]],
+  ['meal',['Meal',['../classMeal.html',1,'']]],
+  ['micropayorderconfirmpayurlgetrequest',['MicropayOrderConfirmpayurlGetRequest',['../classMicropayOrderConfirmpayurlGetRequest.html',1,'']]],
+  ['micropayorderconfirmpayurlgetresponse',['MicropayOrderConfirmpayurlGetResponse',['../classMicropayOrderConfirmpayurlGetResponse.html',1,'']]],
+  ['micropayorderdetail',['MicroPayOrderDetail',['../classMicroPayOrderDetail.html',1,'']]],
+  ['micropayorderdirectpayrequest',['MicropayOrderDirectPayRequest',['../classMicropayOrderDirectPayRequest.html',1,'']]],
+  ['micropayorderdirectpayresponse',['MicropayOrderDirectPayResponse',['../classMicropayOrderDirectPayResponse.html',1,'']]],
+  ['micropayorderfreezepayurlgetrequest',['MicropayOrderFreezepayurlGetRequest',['../classMicropayOrderFreezepayurlGetRequest.html',1,'']]],
+  ['micropayorderfreezepayurlgetresponse',['MicropayOrderFreezepayurlGetResponse',['../classMicropayOrderFreezepayurlGetResponse.html',1,'']]],
+  ['micropayorderfreezerequest',['MicropayOrderFreezeRequest',['../classMicropayOrderFreezeRequest.html',1,'']]],
+  ['micropayorderfreezeresponse',['MicropayOrderFreezeResponse',['../classMicropayOrderFreezeResponse.html',1,'']]],
+  ['micropayordergetrequest',['MicropayOrderGetRequest',['../classMicropayOrderGetRequest.html',1,'']]],
+  ['micropayordergetresponse',['MicropayOrderGetResponse',['../classMicropayOrderGetResponse.html',1,'']]],
+  ['micropayorderunfreezerequest',['MicropayOrderUnfreezeRequest',['../classMicropayOrderUnfreezeRequest.html',1,'']]],
+  ['micropayorderunfreezeresponse',['MicropayOrderUnfreezeResponse',['../classMicropayOrderUnfreezeResponse.html',1,'']]]
+];
